@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Bluefin">
+	<listeners>
+		<listener class-name="bluefinUIAutomation.Listeners"></listener>
+	</listeners>
+
+	<test thread-count="7" name="Lobby">
+		<classes>
+			<class name="bluefinUIAutomation.ContactusButton" />
+			<class name="bluefinUIAutomation.LogoTest" />
+			<class name="bluefinUIAutomation.HeaderLinksLobby" />
+			<class name="bluefinUIAutomation.LogInPage" />
+			<class name="bluefinUIAutomation.FooterLinks" />
+			<class name="bluefinUIAutomation.forgetPasswordTest" />
+			<class name="bluefinUIAutomation.RequestDemoLinks" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="6" name="Back Office">
+		<classes>
+			<class name="bluefinUIAutomation.dashboardTest" />
+			<class name="bluefinUIAutomation.AddOrganizationTest" />
+			<class name="bluefinUIAutomation.SearchorgTest" />
+			<class name="bluefinUIAutomation.CreateTicketTest" />
+			<class name="bluefinUIAutomation.ContactUsVerificationTest" />
+			<class name="bluefinUIAutomation.BOreportsVerification" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

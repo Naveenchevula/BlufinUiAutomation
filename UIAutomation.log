@@ -1,0 +1,933 @@
+ INFO [ContactUsButton.java:59] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsButton.java:60] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsButton.java:61] - Redirected to Lobby 
+ INFO [ContactUsButton.java:62] - ON Home Page 
+ INFO [ContactUsButton.java:63] - Contact Us Button Test Started
+ INFO [ContactUsButton.java:65] - Click on contact us Button on home page 
+ INFO [ContactUsButton.java:66] - Click on contact us Button
+ INFO [ContactUsButton.java:67] - Contact us pop is opended
+ INFO [ContactUsButton.java:73] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsButton.java:74] - redirected to contact us form 
+ INFO [ContactUsButton.java:76] - Able to see Contact Us Form 
+ INFO [ContactUsButton.java:77] - Cleared form
+ INFO [ContactUsButton.java:78] - Entering Info in the form
+ INFO [ContactUsButton.java:80] - Entered FirstName
+ INFO [ContactUsButton.java:82] - first Name Entered as :Naveen
+ INFO [ContactUsButton.java:86] - Entered LastName
+ INFO [ContactUsButton.java:88] - Last Name Entered as :chevula
+ INFO [ContactUsButton.java:89] - Entering Phone number
+ INFO [ContactUsButton.java:93] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsButton.java:95] - Entering Email
+ INFO [ContactUsButton.java:99] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsButton.java:102] - Entering Company Name 
+ INFO [ContactUsButton.java:107] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsButton.java:109] - Selecting Role From DropDown
+ INFO [ContactUsButton.java:113] - Selected Role as : Software Engineer
+ INFO [ContactUsButton.java:115] - Entering Note
+ INFO [ContactUsButton.java:120] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsButton.java:123] - Clicked on Send Message button
+ INFO [ContactUsButton.java:126] - Message set Succesfull
+ INFO [ContactUsButton.java:127] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsButton.java:129] - Contact Us Button on home page is verified
+ INFO [HomePageLogo.java:22] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:23] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - Browser Opend
+ INFO [HomePageLogo.java:25] - Redirected to Lobby
+ INFO [HomePageLogo.java:32] - ON Home Page 
+ INFO [HomePageLogo.java:33] - Looking for Logo
+ INFO [HomePageLogo.java:34] - Searching for Logo
+ INFO [HomePageLogo.java:37] - Logo Displaying
+ INFO [HomePageLogo.java:39] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:40] - Verified Logo on Home Page
+ INFO [headerLinks.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [headerLinks.java:24] - # # # # # # # # VERIFICATION OF HEADER LINKS # # # # # # # # # 
+ INFO [headerLinks.java:25] - Chrome Driver Lunched
+ INFO [headerLinks.java:26] - Chrome Browser Opened
+ INFO [headerLinks.java:47] - Opend Lobby URL
+ INFO [headerLinks.java:48] - On Lobby Home Page
+ INFO [headerLinks.java:53] - on header
+ INFO [headerLinks.java:55] - Clicked On Solution Button
+ INFO [headerLinks.java:56] - http://web.td112.net/
+ INFO [headerLinks.java:57] - 
+ Verified : Clickin action of Solutions Button
+ INFO [headerLinks.java:58] - http://web.td112.net/
+ INFO [headerLinks.java:65] -  On WAF Button
+ INFO [headerLinks.java:67] -  Clicked WAF Button
+ INFO [headerLinks.java:68] - http://web.td112.net/waf
+ INFO [headerLinks.java:70] - 
+ Verified : Clickin action of Solutions Button and Verified WAF Button opening new tab
+ INFO [headerLinks.java:71] -  Verified WAF Button
+ INFO [headerLinks.java:75] -  Go Back to Home page 
+ INFO [headerLinks.java:76] -  On Home Page 
+ INFO [headerLinks.java:77] -   Searching for Bot Managament Section
+ INFO [headerLinks.java:79] -  Found Bot Managament Section
+ INFO [headerLinks.java:81] -  Clciked on Bot Managament Section
+ INFO [headerLinks.java:83] - http://web.td112.net/bot
+ INFO [headerLinks.java:85] - 
+ Verified : Clickin action of Solutions Button and Verified Boat Management opening new tab
+ INFO [headerLinks.java:90] - go Back to home page
+ INFO [headerLinks.java:91] - Search For WedAcceleration
+ INFO [headerLinks.java:93] -  WedAcceleration is disaplyed
+ INFO [headerLinks.java:94] - Click on WedAcceleration
+ INFO [headerLinks.java:96] - http://web.td112.net/web
+ INFO [headerLinks.java:98] - 
+ Verified : Clickin action of Solutions Button and Verified Web Accelaration opening new tab
+ INFO [headerLinks.java:100] - Verified  WedAcceleration
+ INFO [headerLinks.java:104] - Go back to home page
+ INFO [headerLinks.java:105] - Search for AuthoritativeDNS
+ INFO [headerLinks.java:107] - Found AuthoritativeDNS
+ INFO [headerLinks.java:109] - Clicked on AuthoritativeDNS
+ INFO [headerLinks.java:111] - http://web.td112.net/dns
+ INFO [headerLinks.java:112] - 
+ Verified : Clickin action of Solutions Button and Verified AuthoritativeDNS opening new tab
+ INFO [headerLinks.java:114] - verified  AuthoritativeDNS
+ INFO [headerLinks.java:115] - verification of home page Compleated
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :747259
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [FooterLinks.java:25] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [FooterLinks.java:26] - # # # # # # # # VERIFICATION OF FOOTER LINKS # # # # # # # # # 
+ INFO [FooterLinks.java:27] - Browser Lunched
+ INFO [FooterLinks.java:64] - Page Scrolled Down
+ INFO [FooterLinks.java:66] - ON Service and Support Box Section
+ INFO [FooterLinks.java:72] - Clicked On Learning Link
+ INFO [FooterLinks.java:75] - Current Url : http://web.td112.net/
+ INFO [FooterLinks.java:76] - ON Learning Page
+ INFO [FooterLinks.java:82] - ON contact Sale's Links
+ INFO [FooterLinks.java:83] - Current Url : http://web.td112.net/
+ INFO [FooterLinks.java:85] - ON Billing section
+ INFO [FooterLinks.java:90] - Clicked on My Account Link
+ INFO [FooterLinks.java:91] - On My Account Link
+ INFO [FooterLinks.java:97] - Clicked on Pricing
+ INFO [FooterLinks.java:98] - On Pricing page 
+ INFO [FooterLinks.java:102] - ON QUICK LINKS section
+ INFO [FooterLinks.java:106] - Clicked on About Us
+ INFO [FooterLinks.java:107] - On About Us
+ INFO [FooterLinks.java:111] - Clicked on CaseStudies
+ INFO [FooterLinks.java:112] - On CaseStudies
+ INFO [FooterLinks.java:116] - Clicked on RequestDemolink
+ INFO [FooterLinks.java:117] - On RequestDemolink
+ INFO [FooterLinks.java:119] - Footer Links verified
+ INFO [forgotpasswordEvents.java:22] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [forgotpasswordEvents.java:23] - # # # # # # # # VERIFICATION OF FORGET PASSWORD # # # # # # # # # 
+ INFO [forgotpasswordEvents.java:39] - Test Started to test forget password page Verification
+ INFO [forgotpasswordEvents.java:42] - Clicked on forget Password Link/Button
+ INFO [forgotpasswordEvents.java:49] - Entered Email  is: naveenchevula221@gmail.com
+ INFO [forgotpasswordEvents.java:51] - Clicked On Submit Button
+ INFO [forgotpasswordEvents.java:53] - Email Sent Successfully
+ INFO [forgotpasswordEvents.java:54] - true
+ INFO [forgotpasswordEvents.java:56] - Able to see Go Back Button
+ INFO [forgotpasswordEvents.java:58] - Clicked on Go Back Button
+ INFO [forgotpasswordEvents.java:59] - Forget Password Functionality Verification Done
+ INFO [HomepageElements.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomepageElements.java:24] - # # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # 
+ INFO [HomepageElements.java:25] - Chrome Driver Lunched
+ INFO [HomepageElements.java:26] - Chrome Browser Opened
+ INFO [HomepageElements.java:65] - Searching for Request Demo Button
+ INFO [HomepageElements.java:66] - Found Request Demo Button
+ INFO [HomepageElements.java:67] - Click on Request Demo Button 
+ INFO [HomepageElements.java:69] - Clicked on Request Demo Button 
+ INFO [HomepageElements.java:71] - Redirected to  Request Demo form 
+ INFO [HomepageElements.java:76] - Clear Form 
+ INFO [HomepageElements.java:77] - Entering Details in Form
+ INFO [HomepageElements.java:80] - Entered First Name is: Auto_FirstNameHoq
+ INFO [HomepageElements.java:85] - Entered Last Name is: Auto_LirstNamekud
+ INFO [HomepageElements.java:89] - Entered Phone Number is: 9963803611
+ INFO [HomepageElements.java:93] - Entered Organization is: Auto_CompPgX
+ INFO [HomepageElements.java:101] - Entered Email is: automed@mailinator.com
+ INFO [HomepageElements.java:105] - Entered Note as: Automation Test Request demo Successtrv
+ INFO [HomepageElements.java:109] - Button Text Found : Return to Homepage
+ INFO [HomepageElements.java:113] - Current Url After clicking on back button : http://web.td112.net/
+ INFO [HomepageElements.java:114] - Verified Request Demo Functionality
+ INFO [HomepageElements.java:65] - Searching for Request Demo Button
+ INFO [HomepageElements.java:66] - Found Request Demo Button
+ INFO [HomepageElements.java:67] - Click on Request Demo Button 
+ INFO [HomepageElements.java:69] - Clicked on Request Demo Button 
+ INFO [HomepageElements.java:71] - Redirected to  Request Demo form 
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+DEBUG [_Log4jLoggerFactory.java:45] - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [DashBoard.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DashBoard.java:24] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :494342
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [DashBoard.java:47] - verifying Profile Icon
+ INFO [DashBoard.java:48] - Clicked on Profile Icon
+ INFO [DashBoard.java:49] - Profile Icon Window opend
+ INFO [DashBoard.java:50] - Verified Profile Section
+ INFO [DashBoard.java:51] - Closed Profile Section
+ INFO [DashBoard.java:57] - verifying Components on Dashbaord
+ INFO [DashBoard.java:58] - Clicking on Organization dropdown
+ INFO [DashBoard.java:60] - Organization Drop down is Opend
+ INFO [DashBoard.java:64] - Organization Section Closed
+ INFO [DashBoard.java:65] - Service section
+ INFO [DashBoard.java:66] - Verifying Service section
+ INFO [DashBoard.java:70] - Clicked on Service section
+ INFO [DashBoard.java:71] - Heading Dispalying as : Services
+ INFO [DashBoard.java:72] - Service section is Opened 
+ INFO [DashBoard.java:73] - List of Options under Service Section Recently visited
+No Recently Visited
+All services
+Dashboard
+Organization Dashboard
+Organization
+Organization Listing
+Billing Management
+User Management
+Approve Demo
+Products
+DNS
+Reports
+Provider Report
+Customer Support
+Support
+Contact Us
+ INFO [DashBoard.java:76] - Service Section is Closed 
+ INFO [DashBoard.java:77] - Verifying Support Icon on Header
+ INFO [DashBoard.java:78] - Searching for Support Icon on Header
+ INFO [DashBoard.java:80] - Support Icon Is displayed :true
+ INFO [DashBoard.java:82] - Clicked on Support icon
+ INFO [DashBoard.java:83] - Support page is opened
+ INFO [DashBoard.java:85] - http://console.td112.net/customer/support
+ INFO [DashBoard.java:86] - Searching for logout
+ INFO [DashBoard.java:87] - Clicked on Logout Button
+ INFO [DashBoard.java:91] - Successfully Logged out
+ INFO [DashBoard.java:92] - Verified Dashboard functionality
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [AddOrganization.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:27] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :301211
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [AddOrganization.java:83] - Searching for Select Service button
+ INFO [AddOrganization.java:84] - clicking on Select service
+ INFO [AddOrganization.java:87] - Searching for Organisation listing button
+ INFO [AddOrganization.java:88] - clicking on Organisation listing button
+ INFO [AddOrganization.java:90] - Organization Listing page opend
+ INFO [AddOrganization.java:91] - Searching for Add Organization Button
+ INFO [AddOrganization.java:92] - Clicking on Add Organization Button
+ INFO [AddOrganization.java:94] - Add organization from is opened
+ INFO [AddOrganization.java:101] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:102] - # # # # # # # # VERIFICATION OF ADD ORGANIZATION FUNCTIONALITY # # # # # # # # # 
+ INFO [AddOrganization.java:105] - clearing form
+ INFO [AddOrganization.java:106] - Entering Organization Name
+ INFO [AddOrganization.java:110] - Entering Organization Name as :Auto OrgoZO
+ INFO [AddOrganization.java:113] - Clicked on country dropdown
+ INFO [AddOrganization.java:115] - Selected Country
+ INFO [AddOrganization.java:118] - Entering Phone number
+ INFO [AddOrganization.java:120] - Entered Phone number as :9963803652
+ INFO [AddOrganization.java:122] - Entering Address
+ INFO [AddOrganization.java:124] - Entered Address asAuto OrgQkb
+ INFO [AddOrganization.java:126] - Entering Email Id 
+ INFO [AddOrganization.java:128] - Entered Email Id as :autolhx@mailinator.com
+ INFO [AddOrganization.java:129] - Entering Billing Address 
+ INFO [AddOrganization.java:131] - Entered Billing Address :Auto OrgNBq
+ INFO [AddOrganization.java:132] - Entering registration Number
+ INFO [AddOrganization.java:134] - Entered registration Number as :9963803677
+ INFO [AddOrganization.java:143] - Clicked on Select Subscription Plan
+ INFO [AddOrganization.java:146] -  Subscription Plan is Selected
+ INFO [AddOrganization.java:147] -  Page Scrolled for Admin Section
+ INFO [AddOrganization.java:174] - Clearing admin Section
+ INFO [AddOrganization.java:176] - Entered Admin Email As :autolhx@mailinator.com
+ INFO [AddOrganization.java:178] - Entered Admin First Name as :Auto OrgoZO
+ INFO [AddOrganization.java:180] - Entered Admin Last Name as :Auto OrgoZO
+ INFO [AddOrganization.java:182] - Entered Admin Number as :9963803652
+ INFO [AddOrganization.java:184] - clicked on Select Country
+ INFO [AddOrganization.java:190] - Selected Country
+ INFO [AddOrganization.java:191] - Searching for submit button
+ INFO [AddOrganization.java:193] - Clicked on Submit button
+ INFO [AddOrganization.java:194] - Organization Created Successfully
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [SearchOrganizationElement.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:28] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :301211
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [SearchOrganizationElement.java:87] - Searching for Select Service button
+ INFO [SearchOrganizationElement.java:88] - clicking on Select service
+ INFO [SearchOrganizationElement.java:91] - Searching for Organisation listing button
+ INFO [SearchOrganizationElement.java:92] - clicking on Organisation listing button
+ INFO [SearchOrganizationElement.java:94] - Organization Listing page opend
+ INFO [SearchOrganizationElement.java:95] - Searching for Add Organization Button
+ INFO [SearchOrganizationElement.java:96] - Clicking on Add Organization Button
+ INFO [SearchOrganizationElement.java:98] - Add organization from is opened
+ INFO [SearchOrganizationElement.java:104] - clearing form
+ INFO [SearchOrganizationElement.java:105] - Entering Organization Name
+ INFO [SearchOrganizationElement.java:108] - Entering Organization Name as :Auto OrgquR
+ INFO [SearchOrganizationElement.java:111] - Clicked on country dropdown
+ INFO [SearchOrganizationElement.java:113] - Selected Country
+ INFO [SearchOrganizationElement.java:116] - Entering Phone number
+ INFO [SearchOrganizationElement.java:118] - Entered Phone number as :9963803697
+ INFO [SearchOrganizationElement.java:120] - Entering Address
+ INFO [SearchOrganizationElement.java:122] - Entered Address asAuto OrgDFW
+ INFO [SearchOrganizationElement.java:124] - Entering Email Id 
+ INFO [SearchOrganizationElement.java:126] - Entered Email Id as :autoosr@mailinator.com
+ INFO [SearchOrganizationElement.java:127] - Entering Billing Address 
+ INFO [SearchOrganizationElement.java:129] - Entered Billing Address :Auto OrgvGl
+ INFO [SearchOrganizationElement.java:130] - Entering registration Number
+ INFO [SearchOrganizationElement.java:132] - Entered registration Number as :9963803651
+ INFO [SearchOrganizationElement.java:140] - Clicked on Select Subscription Plan
+ INFO [SearchOrganizationElement.java:143] -  Subscription Plan is Selected
+ INFO [SearchOrganizationElement.java:144] -  Page Scrolled for Admin Section
+ INFO [SearchOrganizationElement.java:164] - Clearing admin Section
+ INFO [SearchOrganizationElement.java:166] - Entered Admin Email As :autoosr@mailinator.com
+ INFO [SearchOrganizationElement.java:168] - Entered Admin First Name as :Auto OrgquR
+ INFO [SearchOrganizationElement.java:170] - Entered Admin Last Name as :Auto OrgquR
+ INFO [SearchOrganizationElement.java:172] - Entered Admin Number as :9963803697
+ INFO [SearchOrganizationElement.java:176] - clicked on Select Country
+ INFO [SearchOrganizationElement.java:184] - Selected Country
+ INFO [SearchOrganizationElement.java:185] - Searching for submit button
+ INFO [SearchOrganizationElement.java:187] - Clicked on Submit button
+ INFO [SearchOrganizationElement.java:188] - Organization Created Successfully
+ INFO [SearchOrganizationElement.java:189] - Searching for Search Text Box
+ INFO [SearchOrganizationElement.java:190] - Search Box Founded
+ INFO [SearchOrganizationElement.java:192] - Clicked On Search Box
+ INFO [SearchOrganizationElement.java:194] - Enter Text in Search Box as : Auto OrgquR
+ INFO [SearchOrganizationElement.java:196] - Clicked On Search Icon
+ INFO [SearchOrganizationElement.java:198] - Searching for Organization :Auto OrgquR
+ INFO [SearchOrganizationElement.java:203] - Search Results data :Auto_CompxxM
+ INFO [SearchOrganizationElement.java:204] - Search Functionality is verified
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :711398
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [LogIn.java:145] - Seareching for Support Button
+ INFO [LogIn.java:147] - Clicked on Search Button
+ INFO [LogIn.java:148] - Support Page is opened
+ INFO [LogIn.java:149] - http://console.td112.net/customer/support
+ INFO [LogIn.java:151] - Clicked on Create ticket
+ INFO [LogIn.java:152] - create ticket Window Opend
+ INFO [LogIn.java:153] - Enter Subject
+ INFO [LogIn.java:156] - Enter Subject As :
+ INFO [LogIn.java:158] - Enter Organization
+ INFO [LogIn.java:160] - Enter Text As Test
+ INFO [LogIn.java:161] - Enter Organization
+ INFO [LogIn.java:163] - Select organization :
+ INFO [LogIn.java:166] - clicked on Category Dropdown
+ INFO [LogIn.java:169] - Selected Category
+ INFO [LogIn.java:172] - Clicked on Assigne
+ INFO [LogIn.java:176] - Entered Support in Text Box
+ INFO [LogIn.java:180] - Selcetd Support as Assigne from drop down
+ INFO [LogIn.java:183] - Entered Description As :Testing Create ticket Senario Automation
+ INFO [LogIn.java:201] - Clicked on Submit Button
+ INFO [LogIn.java:202] - Ticket Created Successfully
+ INFO [LogIn.java:205] - List of ticket's data displaying Assignee
+Status
+Priority
+Category
+Submit
+Create Ticket
+Ticket Status Last updated Category Subject Priority Organization Assignee
+#150 Open 2022-11-16 15:10:42 Billing test Low Internal support@alphanetworks.com.sg
+#149 2022-11-15 16:20:35
+ INFO [ContactUsFuctionality.java:100] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:101] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:102] - Redirected to Lobby 
+ INFO [ContactUsFuctionality.java:103] - ON Home Page 
+ INFO [ContactUsFuctionality.java:104] - Contact Us Button Test Started
+ INFO [ContactUsFuctionality.java:106] - Click on contact us Button on home page 
+ INFO [ContactUsFuctionality.java:107] - Click on contact us Button
+ INFO [ContactUsFuctionality.java:108] - Contact us pop is opended
+ INFO [ContactUsFuctionality.java:114] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsFuctionality.java:115] - redirected to contact us form 
+ INFO [ContactUsFuctionality.java:117] - Able to see Contact Us Form 
+ INFO [ContactUsFuctionality.java:118] - Cleared form
+ INFO [ContactUsFuctionality.java:119] - Entering Info in the form
+ INFO [ContactUsFuctionality.java:121] - Entered FirstName
+ INFO [ContactUsFuctionality.java:123] - first Name Entered as :Naveen
+ INFO [ContactUsFuctionality.java:127] - Entered LastName
+ INFO [ContactUsFuctionality.java:129] - Last Name Entered as :chevula
+ INFO [ContactUsFuctionality.java:130] - Entering Phone number
+ INFO [ContactUsFuctionality.java:134] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsFuctionality.java:136] - Entering Email
+ INFO [ContactUsFuctionality.java:140] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsFuctionality.java:143] - Entering Company Name 
+ INFO [ContactUsFuctionality.java:148] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsFuctionality.java:150] - Selecting Role From DropDown
+ INFO [ContactUsFuctionality.java:154] - Selected Role as : Software Engineer
+ INFO [ContactUsFuctionality.java:156] - Entering Note
+ INFO [ContactUsFuctionality.java:161] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:164] - Clicked on Send Message button
+ INFO [ContactUsFuctionality.java:167] - Message set Succesfull
+ INFO [ContactUsFuctionality.java:168] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsFuctionality.java:170] - Contact Us Button on home page is verified
+ INFO [ContactUsFuctionality.java:175] - Open Lobby Url
+ INFO [ContactUsFuctionality.java:176] - Searching for Loggin Button
+ INFO [ContactUsFuctionality.java:177] - Clicked On Login Button
+ INFO [ContactUsFuctionality.java:179] - Redirected to Login Page
+ INFO [ContactUsFuctionality.java:180] - verifing login page 
+ INFO [ContactUsFuctionality.java:181] - found Email & Password Boxes
+ INFO [ContactUsFuctionality.java:184] - Clear email Box
+ INFO [ContactUsFuctionality.java:186] - Enter Email Id 
+ INFO [ContactUsFuctionality.java:188] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [ContactUsFuctionality.java:190] - Search For Password Box
+ INFO [ContactUsFuctionality.java:192] - Clear Password Box
+ INFO [ContactUsFuctionality.java:194] - Enter Password 
+ INFO [ContactUsFuctionality.java:196] - Entered Email as :AA1@34aa
+ INFO [ContactUsFuctionality.java:198] - Search For Submit Button
+ INFO [ContactUsFuctionality.java:200] - Clicked On Submit Button
+ INFO [ContactUsFuctionality.java:201] - IS button DISPlAYING :  true
+ INFO [ContactUsFuctionality.java:202] - Redirected to Enter Code page 
+ INFO [ContactUsFuctionality.java:204] - Fetching Code From Google Authenticator
+ INFO [ContactUsFuctionality.java:206] - Enter Code in Box 
+ INFO [ContactUsFuctionality.java:208] - Entered 2 factor code as :711398
+ INFO [ContactUsFuctionality.java:210] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:212] - Search For Done Button 
+ INFO [ContactUsFuctionality.java:213] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:215] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:216] - redirected to Back Office
+ INFO [ContactUsFuctionality.java:217] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:218] - Logged in Succesfully
+ INFO [ContactUsFuctionality.java:227] - Redirected to contactus page back office
+ INFO [ContactUsFuctionality.java:228] - List of data is displaying
+ INFO [ContactUsFuctionality.java:231] - Clicked on view
+ INFO [ContactUsFuctionality.java:233] - Displaying content as ;Name: Naveen chevula
+Email: xyz@gmail.com
+Company: Automation Organization
+Job Title: Software Engineer
+Phone: +91 9963802616
+Message:
+Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:236] - Clicked on Close Button
+ INFO [ContactUsFuctionality.java:237] - View closed
+ INFO [ContactUsFuctionality.java:245] - Clicked on reply icon
+ INFO [ContactUsFuctionality.java:246] - Window pop up is opened
+ INFO [ContactUsFuctionality.java:249] - Clicked on yes icon
+ INFO [ContactUsFuctionality.java:250] - Popup is closed
+ INFO [ContactUsFuctionality.java:251] - unable to see record
+ INFO [ContactUsFuctionality.java:252] - Test passed succesfully
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [ReportsPage.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ReportsPage.java:24] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:27] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:29] - Chrome Driver Lunched
+ INFO [LogIn.java:30] - Chrome Browser Opened
+ INFO [LogIn.java:87] - Open Lobby Url
+ INFO [LogIn.java:88] - Searching for Loggin Button
+ INFO [LogIn.java:89] - Clicked On Login Button
+ INFO [LogIn.java:91] - Redirected to Login Page
+ INFO [LogIn.java:92] - verifing login page 
+ INFO [LogIn.java:93] - found Email & Password Boxes
+ INFO [LogIn.java:96] - Clear email Box
+ INFO [LogIn.java:98] - Enter Email Id 
+ INFO [LogIn.java:100] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:102] - Search For Password Box
+ INFO [LogIn.java:104] - Clear Password Box
+ INFO [LogIn.java:106] - Enter Password 
+ INFO [LogIn.java:108] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:110] - Search For Submit Button
+ INFO [LogIn.java:112] - Clicked On Submit Button
+ INFO [LogIn.java:113] - IS button DISPlAYING :  true
+ INFO [LogIn.java:114] - Redirected to Enter Code page 
+ INFO [LogIn.java:116] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:118] - Enter Code in Box 
+ INFO [LogIn.java:120] - Entered 2 factor code as :711398
+ INFO [LogIn.java:122] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:124] - Search For Done Button 
+ INFO [LogIn.java:125] - Clicked on Done Button 
+ INFO [LogIn.java:127] - Clicked on Done Button 
+ INFO [LogIn.java:128] - redirected to Back Office
+ INFO [LogIn.java:129] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:130] - Logged in Succesfully
+ INFO [LogIn.java:132] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:133] - Found Profile Icon
+ INFO [LogIn.java:135] - Clicked On Profile Icon
+ INFO [LogIn.java:136] - Profile Section Is opened 
+ INFO [LogIn.java:137] - Current Url :Back Office
+ INFO [LogIn.java:138] - http://console.td112.net/
+ INFO [LogIn.java:139] - Login Functionality Verified
+ INFO [ReportsPage.java:37] - Logged into Back office
+ INFO [ReportsPage.java:39] - Services Button found
+ INFO [ReportsPage.java:40] - Clicking on Services
+ INFO [ReportsPage.java:42] - Services Drop down is Opend
+ INFO [ReportsPage.java:45] - Clicked on Provide report button
+ INFO [ReportsPage.java:46] - Redirected to Reports page
+ INFO [ReportsPage.java:48] - Current url :http://console.td112.net/reports/provider
+ INFO [ReportsPage.java:49] - Reports page is opend
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/spark.spa.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "commons/commons-variables.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "commons/commons-macros.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/attributes.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/log.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/head.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/navbar.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/test.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/exception.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/category.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/device.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/author.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/log.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "spark/partials/scripts.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+DEBUG [_Log4jLoggerFactory.java:45] - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+DEBUG [_Log4jLoggerFactory.java:45] - "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed): using cached since jar:file:/C:/Users/nchevula/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+ INFO [HomePageLogo.java:22] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:23] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - Browser Opend
+ INFO [HomePageLogo.java:25] - Redirected to Lobby
+ INFO [HomePageLogo.java:32] - ON Home Page 
+ INFO [HomePageLogo.java:33] - Looking for Logo
+ INFO [HomePageLogo.java:34] - Searching for Logo
+ INFO [HomePageLogo.java:37] - Logo Displaying
+ INFO [HomePageLogo.java:39] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:40] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
+ INFO [HomePageLogo.java:23] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:24] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:25] - Browser Opend
+ INFO [HomePageLogo.java:26] - Redirected to Lobby
+ INFO [HomePageLogo.java:33] - ON Home Page 
+ INFO [HomePageLogo.java:34] - Looking for Logo
+ INFO [HomePageLogo.java:35] - Searching for Logo
+ INFO [HomePageLogo.java:38] - Logo Displaying
+ INFO [HomePageLogo.java:40] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:41] - Verified Logo on Home Page
