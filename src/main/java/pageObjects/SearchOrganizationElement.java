@@ -3,6 +3,7 @@ package pageObjects;
 import java.awt.AWTException;
 import java.time.Duration;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -11,18 +12,29 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SearchOrganizationElement extends LogIn {
+import Config.TestBase;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SearchOrganizationElement extends TestBase {
 	WebDriver driver;
-
+	LogIn login;
 	static final Logger logger = LogManager.getLogger(SearchOrganizationElement.class.getName());
+	public String generateRandomString(int length) {
+		return RandomStringUtils.randomAlphabetic(length).toLowerCase();
+	}
 
-	public SearchOrganizationElement(WebDriver driver) {
-		super(driver);
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+	// for numbers
+	public String generateRandomNumber(int length) {
+		return RandomStringUtils.randomNumeric(length);
+	}
+	public SearchOrganizationElement() {
+		super();
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # ");
@@ -82,8 +94,8 @@ public class SearchOrganizationElement extends LogIn {
 	WebElement ResultsSection;
 	
 	public void addOrg() throws Throwable {
-		LogIn log = new LogIn(driver);
-		log.LoginFuction();
+		LogIn login = new LogIn();
+		login.LoginFuction();
 		logger.info("Searching for Select Service button");
 		logger.info("clicking on Select service");
 		SelectService.click();
@@ -203,5 +215,24 @@ public class SearchOrganizationElement extends LogIn {
 		logger.info("Search Results data :"+ driver.findElement(By.xpath("//td[2]")).getText());
 		logger.info("Search Functionality is verified");
 	}
-
+	public void SearchOrganizationadd() throws Throwable {
+		
+		pageObjects.SearchOrganizationElement addOrg = new pageObjects.SearchOrganizationElement();
+	    addOrg.addOrg();
+	    addOrg.organizationSearch("Auto Org"+ RandomStringUtils.randomAlphabetic(3),"99638036" + RandomStringUtils.randomNumeric(2),"Auto Org"+ RandomStringUtils.randomAlphabetic(3),"auto" + RandomStringUtils.randomAlphabetic(3).toLowerCase() + "@mailinator.com","Auto Org"+ RandomStringUtils.randomAlphabetic(3),"99638036" + RandomStringUtils.randomNumeric(2));
+	//    organizationForm orgFrom = new organizationForm();
+	//    addOrg.Search("Auto Org"+ RandomStringUtils.randomAlphabetic(3));
+	   
+	}
+	
+	public void SearchOrg() throws Throwable {
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		pageObjects.SearchOrganizationElement addOrg = new pageObjects.SearchOrganizationElement();
+	    addOrg.addOrg();
+	    addOrg.organizationSearch("Auto Org"+ RandomStringUtils.randomAlphabetic(3),"99638036" + RandomStringUtils.randomNumeric(2),"Auto Org"+ RandomStringUtils.randomAlphabetic(3),"auto" + RandomStringUtils.randomAlphabetic(3).toLowerCase() + "@mailinator.com","Auto Org"+ RandomStringUtils.randomAlphabetic(3),"99638036" + RandomStringUtils.randomNumeric(2));
+	   
+	   
+	}
 }

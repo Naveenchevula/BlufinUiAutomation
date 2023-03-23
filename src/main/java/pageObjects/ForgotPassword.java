@@ -5,19 +5,23 @@ import java.time.Duration;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class forgotpasswordEvents {
-	WebDriver driver;
-	static final Logger logger = LogManager.getLogger(forgotpasswordEvents.class.getName());
+import Config.TestBase;
 
-	public forgotpasswordEvents(WebDriver driver) {
+public class ForgotPassword {
+	WebDriver driver;
+	ForgotPassword forgotpassword;
+	static final Logger logger = LogManager.getLogger(ForgotPassword.class.getName());
+
+	public ForgotPassword() {
 		// intialistion
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF FORGET PASSWORD # # # # # # # # # ");
@@ -34,11 +38,17 @@ public class forgotpasswordEvents {
 	@FindBy(xpath = "//button[normalize-space()='Go back']")
 	WebElement GobackBtn;
 	
+	@FindBy(xpath = "(//a[@class='btn btn-submit ng-star-inserted'][normalize-space()='Login'])[2]")
+	WebElement LogInBtn;
 
 	public void forgotPass() {
+		
+		driver.get("https://console.td112.net/login?redirect=%2F");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Test Started to test forget password page Verification");
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		ForgetPass.click();
+		
 		logger.info("Clicked on forget Password Link/Button");
 	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -58,4 +68,8 @@ public class forgotpasswordEvents {
 		logger.info("Clicked on Go Back Button");
 		logger.info("Forget Password Functionality Verification Done");
 	}
+	
+	
+	
+	
 }

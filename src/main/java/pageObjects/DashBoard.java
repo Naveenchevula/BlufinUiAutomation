@@ -10,15 +10,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DashBoard extends LogIn {
+import Config.TestBase;
+
+public class DashBoard extends TestBase {
 	WebDriver driver;
+	LogIn login;
 	static final Logger logger = LogManager.getLogger(DashBoard.class.getName());
 
-	public DashBoard(WebDriver driver) {
-		super(driver);
+	public DashBoard() {
+		super();
 		// TODO Auto-generated constructor stub
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # ");
@@ -42,8 +45,8 @@ public class DashBoard extends LogIn {
 	WebElement Profileicon;
 
 	public void Dashboardverification() throws Throwable {
-		LogIn log = new LogIn(driver);
-		log.LoginFuction();
+		LogIn login = new LogIn();
+		login.LoginFuction();
 		logger.info("verifying Profile Icon");
 		logger.info("Clicked on Profile Icon");
 		logger.info("Profile Icon Window opend");

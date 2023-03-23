@@ -9,16 +9,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ContactUsButton {
+import Config.TestBase;
+
+public class ContactUsButton extends TestBase {
 	WebDriver driver;
+	ContactUsButton contactusbutton;
 
 	static final Logger logger = LogManager.getLogger(ContactUsButton.class.getName());
 
-	public ContactUsButton(WebDriver driver) {
+	public ContactUsButton() {
 		// intialistion
-
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 
 	}
 
@@ -48,11 +50,7 @@ public class ContactUsButton {
 	@FindBy(xpath = "//div[@class='text-message']")
 	WebElement SucessMessage;
 
-	public void Goto() {
-
-		driver.get("http://web.td112.net/");
-
-	}
+	
 
 	public void Contactus() {
 		PropertyConfigurator.configure("log4j.properties");

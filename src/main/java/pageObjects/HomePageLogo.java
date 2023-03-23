@@ -9,16 +9,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterClass;
+import Config.TestBase;
 
-public class HomePageLogo {
+public class HomePageLogo extends TestBase {
 	WebDriver driver;
+	HomePageLogo homepage;
+
 	static final Logger logger = LogManager.getLogger(HomePageLogo.class.getName());
 
-	public HomePageLogo(WebDriver driver) {
+	public HomePageLogo() {
 		// intialistion 
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # ");
@@ -30,6 +32,7 @@ public class HomePageLogo {
 	WebElement LOGO;
 
 	public void LogoVerify() {
+		
 		logger.info("ON Home Page ");
 		logger.info("Looking for Logo");
 		logger.info("Searching for Logo");
@@ -41,7 +44,7 @@ public class HomePageLogo {
 		logger.info("Verified Logo on Home Page");
 		
 	}
-	
+
 	
 
 	  

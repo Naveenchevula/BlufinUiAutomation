@@ -5,25 +5,25 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-
 import java.time.Duration;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Config.TestBase;
 import utilities.TOTPGenerator;
 
-public class LogIn {
+public class LogIn extends TestBase {
 	WebDriver driver;
+	LogIn login;
+	ReportsPagedata reports;
 	static final Logger logger = LogManager.getLogger(WebDriver.class.getName());
 
-	public LogIn(WebDriver driver) {
+	public LogIn() {
 		// intialistion
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 //		logger.info("# # # # # # # # VERIFICATION OF LOGIN FUNCTIONALITY # # # # # # # # # ");
@@ -147,22 +147,33 @@ public class LogIn {
 		SupportBtn.click();
 		logger.info("Clicked on Search Button");
 		logger.info("Support Page is opened");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info(driver.getCurrentUrl());
 		CreateTicket.click();
 		logger.info("Clicked on Create ticket");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("create ticket Window Opend");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Enter Subject");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		Subject.sendKeys("Test Automation Create ticket");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		String Sub = Subject.getText();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Enter Subject As :" + Sub);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Enter Organization");
-		orgnization.sendKeys("Test");
-		logger.info("Enter Text As Test");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		orgnization.click();
+		orgnization.sendKeys("Auto");
+		logger.info("Enter Text As  Test" + orgnization.getText());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Enter Organization");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.findElement(By.xpath("//body[1]/div[2]/ul[1]/cdk-virtual-scroll-viewport[1]/div[1]/li[3]")).click();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		logger.info("Select organization :" + orgnization.getText());
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		DropDown1.click();
 		logger.info("clicked on Category Dropdown");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

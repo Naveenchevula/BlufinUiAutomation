@@ -11,14 +11,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class headerLinks {
-	WebDriver driver;
-	static final Logger logger = LogManager.getLogger(headerLinks.class.getName());
+import Config.TestBase;
 
-	public headerLinks(WebDriver driver) {
+public class HeaderLinks extends TestBase {
+	WebDriver driver;
+	static final Logger logger = LogManager.getLogger(HeaderLinks.class.getName());
+
+	public HeaderLinks() {
 		// intialistion
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF HEADER LINKS # # # # # # # # # ");
@@ -42,12 +44,6 @@ public class headerLinks {
 	WebElement AuthoritativeDNS;
 	String clickl = Keys.chord(Keys.CONTROL, Keys.ENTER);
 
-	public void Goto() {
-		driver.get("http://web.td112.net/");
-		logger.info("Opend Lobby URL");
-		logger.info("On Lobby Home Page");
-
-	}
 
 	public void HeaderLinksSubbtn() {
 		logger.info("on header");

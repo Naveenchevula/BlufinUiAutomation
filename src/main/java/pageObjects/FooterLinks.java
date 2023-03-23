@@ -13,14 +13,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class FooterLinks {
+import Config.TestBase;
+
+public class FooterLinks extends TestBase {
 	WebDriver driver;
+	FooterLinks footerlinks;
 	static final Logger logger = LogManager.getLogger(FooterLinks.class.getName());
 	
-	public FooterLinks(WebDriver driver) {
+	public FooterLinks() {
 		// intialistion
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF FOOTER LINKS # # # # # # # # # ");
@@ -50,13 +53,13 @@ public class FooterLinks {
 
 	String clickl = Keys.chord(Keys.CONTROL, Keys.ENTER);
 
-	public void Goto() {
-		driver.get("http://web.td112.net/");
-		logger.info("Opend Lobby");
-		logger.info("On Lobby");
-	}
+	
 
 	public void FooterlinkCheck() {
+		
+		
+	//	driver.get("http://web.td112.net/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		WebElement Element = driver.findElement(By.xpath("//div[normalize-space()='Service and Support']"));

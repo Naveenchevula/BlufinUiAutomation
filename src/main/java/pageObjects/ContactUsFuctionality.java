@@ -11,19 +11,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Config.TestBase;
 import utilities.TOTPGenerator;
 
-public class ContactUsFuctionality {
+public class ContactUsFuctionality extends TestBase {
 
 	WebDriver driver;
+	LogIn login;
 
 	static final Logger logger = LogManager.getLogger(ContactUsButton.class.getName());
 
-	public ContactUsFuctionality(WebDriver driver) {
+	public ContactUsFuctionality() {
 		// intialistion
-
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+           super();
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 
 	}
 
@@ -88,12 +90,6 @@ public class ContactUsFuctionality {
 	@FindBy(xpath = "//div[@class='header-left']//a[@class='link-nav dropdown-toggle'][normalize-space()='Services']")
 	WebElement SelectService;
 
-	//
-	public void Goto() {
-
-		driver.get("http://web.td112.net/");
-
-	}
 
 	public void ContactusVerification() {
 		PropertyConfigurator.configure("log4j.properties");

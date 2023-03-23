@@ -1,7 +1,5 @@
 package bluefinUIAutomation;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -11,10 +9,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Baseconfig.RequestDemo;
+import Config.TestBase;
 import Resources.ExtendReportsNG;
 
-public class Listeners extends RequestDemo implements ITestListener {
+public class Listeners extends TestBase implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent = ExtendReportsNG.getReportObject();
 
@@ -51,15 +49,14 @@ public class Listeners extends RequestDemo implements ITestListener {
 			e1.printStackTrace();
 		}
 		String filepath = null;
-		try {
-			filepath = getScreenshot(result.getMethod().getMethodName(), driver);
-
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		filepath = getScreenshot(result.getMethod().getMethodName(), driver);
 		test.addScreenCaptureFromPath(filepath, result.getMethod().getMethodName());
 
+	}
+
+	private String getScreenshot(String methodName, WebDriver driver) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override

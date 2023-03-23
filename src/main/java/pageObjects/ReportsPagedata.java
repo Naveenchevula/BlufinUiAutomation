@@ -10,15 +10,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ReportsPage extends LogIn {
+import Config.TestBase;
+
+public class ReportsPagedata extends LogIn {
 	WebDriver driver;
-	static final Logger logger = LogManager.getLogger(DashBoard.class.getName());
+	ReportsPagedata reports;
+	LogIn login;
+	static final Logger logger = LogManager.getLogger(ReportsPagedata.class.getName());
 
-	public ReportsPage(WebDriver driver) {
-		super(driver);
-
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+	public ReportsPagedata() {
+	
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # ");
@@ -32,7 +35,7 @@ public class ReportsPage extends LogIn {
 	WebElement ProvideReport;
 
 	public void Reportspageverification() throws Throwable {
-		LogIn log = new LogIn(driver);
+		LogIn log = new LogIn();
 		log.LoginFuction();
 		logger.info("Logged into Back office");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

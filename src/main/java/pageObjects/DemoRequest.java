@@ -1,24 +1,36 @@
 package pageObjects;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
-public class HomepageElements {
+import Config.TestBase;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class DemoRequest extends TestBase {
 
 	WebDriver driver;
-	static final Logger logger = LogManager.getLogger(HomepageElements.class.getName());
+	DemoRequest demo;
+	static final Logger logger = LogManager.getLogger(DemoRequest.class.getName());
 
-	public HomepageElements(WebDriver driver) {
+	public DemoRequest() {
 		// intialistion
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.driver = TestBase.driver;
+		PageFactory.initElements(TestBase.driver, this);
 		PropertyConfigurator.configure("log4j.properties");
 		logger.info("# # # # # # # # # # # # # # # # # # # # # # # # # # # ");
 		logger.info("# # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # ");
@@ -54,12 +66,7 @@ public class HomepageElements {
 	@FindBy(xpath = "//a[normalize-space()='Return to Homepage']")
 	WebElement ReturnHomeBtn;
 
-	public void Goto() {
-		driver.get("http://web.td112.net/");
-		logger.info("Lobby Url is opened");
-		logger.info("On Lobby Page");
-		
-	}
+	
 
 	public void RequestDemoButton() {
 		logger.info("Searching for Request Demo Button");
@@ -113,4 +120,52 @@ public class HomepageElements {
 		logger.info("Current Url After clicking on back button : " + val7);
 		logger.info("Verified Request Demo Functionality");
 	}
+	
+	public void RequestDemoMethod() {
+		
+		System.out.println("Current url : " + driver.getCurrentUrl());
+		System.out.println("Current Title : " + driver.getTitle());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		String expectedurl = "http://web.td112.net/";
+		String originalurl = driver.getCurrentUrl();
+		Assert.assertEquals(originalurl, expectedurl);
+		String expectedTitle = "Lobby";
+		String originalTitle = driver.getTitle();
+		Assert.assertEquals(originalTitle, expectedTitle);
+		DemoRequest homepageElement = new DemoRequest();
+		homepageElement.RequestDemoButton();
+		homepageElement.RequestDemoDetails("Auto_FirstName" + RandomStringUtils.randomAlphabetic(3),
+				"Auto_LirstName" + RandomStringUtils.randomAlphabetic(3),
+				"99638036" + RandomStringUtils.randomNumeric(2), "Auto_Comp" + RandomStringUtils.randomAlphabetic(3),
+				"auto" + RandomStringUtils.randomAlphabetic(3).toLowerCase() + "@mailinator.com",
+				"Automation Test Request demo Success" + RandomStringUtils.randomAlphabetic(3));
+
+		// homepageElement.LoginButtonTest();
+		System.out.println("Current url : " + driver.getCurrentUrl());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("http://web.td112.net/");
+		homepageElement.RequestDemoButton();
+		System.out.println("DemoPage Opened");
+		System.out.println("Current url : " + driver.getCurrentUrl());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+//	   homepageElement.RequestDemoDetails(originalTitle, originalTitle, originalTitle, originalTitle, originalTitle, originalTitle);
+		System.out.println("Entered details sucessfully");
+		// driver.quit();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.close();
+
+	}
+
+	///////////////// get screenshot demo code /////////////////
+	public String getScreenshot(String testcaseName, WebDriver driver) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File dest = new File(System.getProperty("user.dir") + testcaseName + ".png");
+		FileUtils.copyFile(source, dest);
+		return System.getProperty("user.dir") + testcaseName + ".png";
+	}
+	
+	
+	
 }
