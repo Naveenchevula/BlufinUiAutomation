@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="bluefinUIAutomation.ReportsTest"/>
+      <class name="bluefinUIAutomation.SearchorgTest"/>
+      <class name="bluefinUIAutomation.RequestDemoTest"/>
+      <class name="bluefinUIAutomation.LogoTest"/>
+      <class name="bluefinUIAutomation.ForgetPasswordTest"/>
+      <class name="bluefinUIAutomation.CreateTicketTest"/>
+      <class name="bluefinUIAutomation.HeaderLinksTest"/>
+      <class name="bluefinUIAutomation.ContactUsVerificationTest"/>
+      <class name="bluefinUIAutomation.ContactusButtonTest"/>
+      <class name="bluefinUIAutomation.DashboardTest"/>
+      <class name="bluefinUIAutomation.LogInPageTest"/>
+      <class name="bluefinUIAutomation.FooterLinksTest"/>
+      <class name="bluefinUIAutomation.AddOrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
