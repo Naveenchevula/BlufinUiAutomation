@@ -40,7 +40,7 @@ public class TestBase {
 
 		Thread.sleep(2000);
 
-	//	driver.quit();
+		driver.quit();
 		Reporter.log("=====Browser Session End=====", true);
 
 	}
