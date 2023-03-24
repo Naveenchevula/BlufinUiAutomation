@@ -18,7 +18,7 @@ public class TestBase {
 	@BeforeClass
 	public void setupApplication() {
 
-		Reporter.log("=====Browser Session Started=====", true);
+		Reporter.log("=====Browser Session Started=====", true); 
 
 		WebDriverManager.chromedriver().setup();
 
