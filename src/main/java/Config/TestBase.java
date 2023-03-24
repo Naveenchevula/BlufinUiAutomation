@@ -27,7 +27,7 @@ public class TestBase {
 		driver = new ChromeDriver(chromeOptions);
 		// WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();  
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		driver.get("http://web.td112.net/");
