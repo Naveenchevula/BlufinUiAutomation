@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="bluefinUIAutomation.SearchorgTest" class="method navigator-link" hash-for-method="SearchOrgnizationElement">SearchOrgnizationElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="bluefinUIAutomation.RequestDemoTest" class="method navigator-link" hash-for-method="testdemo">testdemo</a> <!-- method navigator-link -->
@@ -158,6 +153,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="bluefinUIAutomation.SearchorgTest" class="method navigator-link" hash-for-method="SearchOrgnizationElement">SearchOrgnizationElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="bluefinUIAutomation.CreateTicketTest" class="method navigator-link" hash-for-method="createticket">createticket</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -188,52 +188,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">bluefinUIAutomation.SearchorgTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchOrgnizationElement">
-                  </a> <!-- SearchOrgnizationElement -->
-                  <span class="method-name">SearchOrgnizationElement</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@placeholder=&apos;Search&apos;])&quot;}
-  (Session info: chrome=111.0.5563.66)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f573f8fdae476aedb590acf34e4914ab, findElement {using=xpath, value=(//input[@placeholder=&apos;Search&apos;])}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.66, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 111.0.5563.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f573f8fdae476aedb590acf34e4914ab
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at pageObjects.SearchOrganizationElement.organizationSearch(SearchOrganizationElement.java:203)
-	at pageObjects.SearchOrganizationElement.SearchOrganizationadd(SearchOrganizationElement.java:222)
-	at bluefinUIAutomation.SearchorgTest.SearchOrgnizationElement(SearchorgTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Test Description   = Verification of Search Organization)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -277,16 +231,67 @@ Session ID: f573f8fdae476aedb590acf34e4914ab
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bluefinUIAutomation.DashboardTest</span>
+              <span class="class-name">bluefinUIAutomation.HeaderLinksTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="DashBordverify">
-                  </a> <!-- DashBordverify -->
-                  <span class="method-name">DashBordverify</span>
+                  <a name="headerLinksVerification">
+                  </a> <!-- headerLinksVerification -->
+                  <span class="method-name">headerLinksVerification</span>
                   <em>
-(Test Description   = Verification of DashBoard Components)                  </em>
+(Test Description   = Verification of Headerlinks Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bluefinUIAutomation.LogInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage">
+                  </a> <!-- LoginPage -->
+                  <span class="method-name">LoginPage</span>
+                  <em>
+(Test Description  : Verify login page )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bluefinUIAutomation.ReportsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ReportsPage">
+                  </a> <!-- ReportsPage -->
+                  <span class="method-name">ReportsPage</span>
+                  <em>
+(Test Description   = Verification of Reports Back Office )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bluefinUIAutomation.ContactusButtonTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactUsButtontest">
+                  </a> <!-- ContactUsButtontest -->
+                  <span class="method-name">ContactUsButtontest</span>
+                  <em>
+( Test Description   = Verification of contact  Button & Send Message )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -311,33 +316,16 @@ Session ID: f573f8fdae476aedb590acf34e4914ab
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bluefinUIAutomation.HeaderLinksTest</span>
+              <span class="class-name">bluefinUIAutomation.DashboardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="headerLinksVerification">
-                  </a> <!-- headerLinksVerification -->
-                  <span class="method-name">headerLinksVerification</span>
+                  <a name="DashBordverify">
+                  </a> <!-- DashBordverify -->
+                  <span class="method-name">DashBordverify</span>
                   <em>
-(Test Description   = Verification of Headerlinks Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">bluefinUIAutomation.ContactusButtonTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ContactUsButtontest">
-                  </a> <!-- ContactUsButtontest -->
-                  <span class="method-name">ContactUsButtontest</span>
-                  <em>
-( Test Description   = Verification of contact  Button & Send Message )                  </em>
+(Test Description   = Verification of DashBoard Components)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -379,16 +367,16 @@ Session ID: f573f8fdae476aedb590acf34e4914ab
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bluefinUIAutomation.LogInPageTest</span>
+              <span class="class-name">bluefinUIAutomation.SearchorgTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginPage">
-                  </a> <!-- LoginPage -->
-                  <span class="method-name">LoginPage</span>
+                  <a name="SearchOrgnizationElement">
+                  </a> <!-- SearchOrgnizationElement -->
+                  <span class="method-name">SearchOrgnizationElement</span>
                   <em>
-(Test Description  : Verify login page )                  </em>
+(Test Description   = Verification of Search Organization)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -406,23 +394,6 @@ Session ID: f573f8fdae476aedb590acf34e4914ab
                   <span class="method-name">FooterTLinks</span>
                   <em>
 (Test Description   = Verification of Footerlinks Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">bluefinUIAutomation.ReportsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ReportsPage">
-                  </a> <!-- ReportsPage -->
-                  <span class="method-name">ReportsPage</span>
-                  <em>
-(Test Description   = Verification of Reports Back Office )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -510,57 +481,57 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchOrgnizationElement')
-data.setCell(0, 2, 'bluefinUIAutomation.SearchorgTest')
-data.setCell(0, 3, 34696);
+data.setCell(0, 1, 'AddOrg')
+data.setCell(0, 2, 'bluefinUIAutomation.AddOrganizationTest')
+data.setCell(0, 3, 15749);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddOrg')
-data.setCell(1, 2, 'bluefinUIAutomation.AddOrganizationTest')
-data.setCell(1, 3, 16970);
+data.setCell(1, 1, 'SearchOrgnizationElement')
+data.setCell(1, 2, 'bluefinUIAutomation.SearchorgTest')
+data.setCell(1, 3, 12646);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createticket')
-data.setCell(2, 2, 'bluefinUIAutomation.CreateTicketTest')
-data.setCell(2, 3, 9950);
+data.setCell(2, 1, 'ContactUsBo')
+data.setCell(2, 2, 'bluefinUIAutomation.ContactUsVerificationTest')
+data.setCell(2, 3, 9631);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ContactUsBo')
-data.setCell(3, 2, 'bluefinUIAutomation.ContactUsVerificationTest')
-data.setCell(3, 3, 6551);
+data.setCell(3, 1, 'createticket')
+data.setCell(3, 2, 'bluefinUIAutomation.CreateTicketTest')
+data.setCell(3, 3, 8359);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'DashBordverify')
 data.setCell(4, 2, 'bluefinUIAutomation.DashboardTest')
-data.setCell(4, 3, 6015);
+data.setCell(4, 3, 6352);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'LoginPage')
 data.setCell(5, 2, 'bluefinUIAutomation.LogInPageTest')
-data.setCell(5, 3, 4705);
+data.setCell(5, 3, 5168);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'ReportsPage')
 data.setCell(6, 2, 'bluefinUIAutomation.ReportsTest')
-data.setCell(6, 3, 3766);
+data.setCell(6, 3, 4842);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ContactUsButtontest')
-data.setCell(7, 2, 'bluefinUIAutomation.ContactusButtonTest')
-data.setCell(7, 3, 2377);
+data.setCell(7, 1, 'FooterTLinks')
+data.setCell(7, 2, 'bluefinUIAutomation.FooterLinksTest')
+data.setCell(7, 3, 3107);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'fogetpassword')
 data.setCell(8, 2, 'bluefinUIAutomation.ForgetPasswordTest')
-data.setCell(8, 3, 1935);
+data.setCell(8, 3, 2852);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'FooterTLinks')
-data.setCell(9, 2, 'bluefinUIAutomation.FooterLinksTest')
-data.setCell(9, 3, 1734);
+data.setCell(9, 1, 'ContactUsButtontest')
+data.setCell(9, 2, 'bluefinUIAutomation.ContactusButtonTest')
+data.setCell(9, 3, 2473);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'headerLinksVerification')
 data.setCell(10, 2, 'bluefinUIAutomation.HeaderLinksTest')
-data.setCell(10, 3, 1050);
+data.setCell(10, 3, 1642);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'logoVerify')
 data.setCell(11, 2, 'bluefinUIAutomation.LogoTest')
-data.setCell(11, 3, 583);
+data.setCell(11, 3, 957);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testdemo')
 data.setCell(12, 2, 'bluefinUIAutomation.RequestDemoTest')
-data.setCell(12, 3, 19);
+data.setCell(12, 3, 38);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -598,195 +569,193 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ReportsPage</span>
-                <span class="method-start">2829 ms</span>
+                <span class="method-start">2883 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">6599 ms</span>
+                <span class="method-start">7733 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.SearchorgTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">8611 ms</span>
+                <span class="method-start">9743 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">SearchOrgnizationElement</span>
-                <span class="method-start">10469 ms</span>
+                <span class="method-start">11945 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">45172 ms</span>
+                <span class="method-start">24594 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.RequestDemoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">47185 ms</span>
+                <span class="method-start">26607 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testdemo</span>
-                <span class="method-start">48961 ms</span>
+                <span class="method-start">29422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">48981 ms</span>
+                <span class="method-start">29463 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.LogoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">50990 ms</span>
+                <span class="method-start">31472 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">logoVerify</span>
-                <span class="method-start">52782 ms</span>
+                <span class="method-start">35504 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">53366 ms</span>
+                <span class="method-start">36462 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.ForgetPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">55382 ms</span>
+                <span class="method-start">38468 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">fogetpassword</span>
-                <span class="method-start">57046 ms</span>
+                <span class="method-start">40785 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">58981 ms</span>
+                <span class="method-start">43638 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.CreateTicketTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">60992 ms</span>
+                <span class="method-start">45649 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createticket</span>
-                <span class="method-start">62712 ms</span>
+                <span class="method-start">48853 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">72662 ms</span>
+                <span class="method-start">57213 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.HeaderLinksTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">74672 ms</span>
+                <span class="method-start">59225 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">headerLinksVerification</span>
-                <span class="method-start">77835 ms</span>
+                <span class="method-start">62499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">78886 ms</span>
+                <span class="method-start">64143 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.ContactUsVerificationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">80899 ms</span>
+                <span class="method-start">66157 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ContactUsBo</span>
-                <span class="method-start">85788 ms</span>
+                <span class="method-start">68765 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">92340 ms</span>
+                <span class="method-start">78398 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.ContactusButtonTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">94340 ms</span>
+                <span class="method-start">80400 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ContactUsButtontest</span>
-                <span class="method-start">95987 ms</span>
+                <span class="method-start">84075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">98365 ms</span>
+                <span class="method-start">86550 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.DashboardTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">100377 ms</span>
+                <span class="method-start">88552 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">DashBordverify</span>
-                <span class="method-start">102923 ms</span>
+                <span class="method-start">90495 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">108938 ms</span>
+                <span class="method-start">96849 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.LogInPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">110944 ms</span>
+                <span class="method-start">98860 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginPage</span>
-                <span class="method-start">114085 ms</span>
+                <span class="method-start">100754 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">118791 ms</span>
+                <span class="method-start">105926 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.FooterLinksTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">120794 ms</span>
+                <span class="method-start">107928 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">FooterTLinks</span>
-                <span class="method-start">123570 ms</span>
+                <span class="method-start">111520 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">125306 ms</span>
+                <span class="method-start">114628 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bluefinUIAutomation.AddOrganizationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupApplication</span>
-                <span class="method-start">127321 ms</span>
+                <span class="method-start">116630 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">AddOrg</span>
-                <span class="method-start">131488 ms</span>
+                <span class="method-start">119513 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">148459 ms</span>
+                <span class="method-start">135263 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

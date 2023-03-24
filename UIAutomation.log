@@ -4889,3 +4889,1392 @@ Contact Us
  INFO [AddOrganization.java:211] - Entered Company name and cliking on enter
  INFO [AddOrganization.java:212] - able to see created organization
  INFO [AddOrganization.java:213] - Organization details :::::: Auto OrgVLu
+ INFO [DemoRequest.java:35] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DemoRequest.java:36] - # # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # 
+ INFO [DemoRequest.java:37] - Chrome Driver Lunched
+ INFO [DemoRequest.java:38] - Chrome Browser Opened
+ INFO [DemoRequest.java:35] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DemoRequest.java:36] - # # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # 
+ INFO [DemoRequest.java:37] - Chrome Driver Lunched
+ INFO [DemoRequest.java:38] - Chrome Browser Opened
+ INFO [DemoRequest.java:72] - Searching for Request Demo Button
+ INFO [DemoRequest.java:73] - Found Request Demo Button
+ INFO [DemoRequest.java:74] - Click on Request Demo Button 
+ INFO [DemoRequest.java:76] - Clicked on Request Demo Button 
+ INFO [DemoRequest.java:78] - Redirected to  Request Demo form 
+ INFO [DemoRequest.java:83] - Clear Form 
+ INFO [DemoRequest.java:84] - Entering Details in Form
+ INFO [DemoRequest.java:87] - Entered First Name is: Auto_FirstNameThg
+ INFO [DemoRequest.java:92] - Entered Last Name is: Auto_LirstNameMxV
+ INFO [DemoRequest.java:96] - Entered Phone Number is: 9963803636
+ INFO [DemoRequest.java:100] - Entered Organization is: Auto_CompEiB
+ INFO [DemoRequest.java:108] - Entered Email is: autosmd@mailinator.com
+ INFO [DemoRequest.java:112] - Entered Note as: Automation Test Request demo SuccesslGL
+ INFO [DemoRequest.java:116] - Button Text Found : Return to Homepage
+ INFO [DemoRequest.java:120] - Current Url After clicking on back button : https://web.td112.net/
+ INFO [DemoRequest.java:121] - Verified Request Demo Functionality
+ INFO [DemoRequest.java:72] - Searching for Request Demo Button
+ INFO [DemoRequest.java:73] - Found Request Demo Button
+ INFO [DemoRequest.java:74] - Click on Request Demo Button 
+ INFO [DemoRequest.java:76] - Clicked on Request Demo Button 
+ INFO [DemoRequest.java:78] - Redirected to  Request Demo form 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ReportsPagedata.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ReportsPagedata.java:27] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :323694
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [ReportsPagedata.java:40] - Logged into Back office
+ INFO [ReportsPagedata.java:42] - Services Button found
+ INFO [ReportsPagedata.java:43] - Clicking on Services
+ INFO [ReportsPagedata.java:45] - Services Drop down is Opend
+ INFO [ReportsPagedata.java:48] - Clicked on Provide report button
+ INFO [ReportsPagedata.java:49] - Redirected to Reports page
+ INFO [ReportsPagedata.java:51] - Current url :https://console.td112.net/reports/provider
+ INFO [ReportsPagedata.java:52] - Reports page is opend
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :323694
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [SearchOrganizationElement.java:99] - Searching for Select Service button
+ INFO [SearchOrganizationElement.java:100] - clicking on Select service
+ INFO [SearchOrganizationElement.java:103] - Searching for Organisation listing button
+ INFO [SearchOrganizationElement.java:104] - clicking on Organisation listing button
+ INFO [SearchOrganizationElement.java:106] - Organization Listing page opend
+ INFO [SearchOrganizationElement.java:107] - Searching for Add Organization Button
+ INFO [SearchOrganizationElement.java:108] - Clicking on Add Organization Button
+ INFO [SearchOrganizationElement.java:110] - Add organization from is opened
+ INFO [SearchOrganizationElement.java:116] - clearing form
+ INFO [SearchOrganizationElement.java:117] - Entering Organization Name
+ INFO [SearchOrganizationElement.java:120] - Entering Organization Name as :Auto OrgKeM
+ INFO [SearchOrganizationElement.java:123] - Clicked on country dropdown
+ INFO [SearchOrganizationElement.java:125] - Selected Country
+ INFO [SearchOrganizationElement.java:128] - Entering Phone number
+ INFO [SearchOrganizationElement.java:130] - Entered Phone number as :9963803619
+ INFO [SearchOrganizationElement.java:132] - Entering Address
+ INFO [SearchOrganizationElement.java:134] - Entered Address asAuto Orggia
+ INFO [SearchOrganizationElement.java:136] - Entering Email Id 
+ INFO [SearchOrganizationElement.java:138] - Entered Email Id as :autopwc@mailinator.com
+ INFO [SearchOrganizationElement.java:139] - Entering Billing Address 
+ INFO [SearchOrganizationElement.java:141] - Entered Billing Address :Auto OrgHqm
+ INFO [SearchOrganizationElement.java:142] - Entering registration Number
+ INFO [SearchOrganizationElement.java:144] - Entered registration Number as :9963803677
+ INFO [SearchOrganizationElement.java:152] - Clicked on Select Subscription Plan
+ INFO [SearchOrganizationElement.java:155] -  Subscription Plan is Selected
+ INFO [SearchOrganizationElement.java:156] -  Page Scrolled for Admin Section
+ INFO [SearchOrganizationElement.java:176] - Clearing admin Section
+ INFO [SearchOrganizationElement.java:178] - Entered Admin Email As :autopwc@mailinator.com
+ INFO [SearchOrganizationElement.java:180] - Entered Admin First Name as :Auto OrgKeM
+ INFO [SearchOrganizationElement.java:182] - Entered Admin Last Name as :Auto OrgKeM
+ INFO [SearchOrganizationElement.java:184] - Entered Admin Number as :9963803619
+ INFO [SearchOrganizationElement.java:188] - clicked on Select Country
+ INFO [SearchOrganizationElement.java:196] - Selected Country
+ INFO [SearchOrganizationElement.java:197] - Searching for submit button
+ INFO [SearchOrganizationElement.java:199] - Clicked on Submit button
+ INFO [SearchOrganizationElement.java:200] - Organization Created Successfully
+ INFO [SearchOrganizationElement.java:201] - Searching for Search Text Box
+ INFO [SearchOrganizationElement.java:202] - Search Box Founded
+ INFO [SearchOrganizationElement.java:204] - Clicked On Search Box
+ INFO [SearchOrganizationElement.java:206] - Enter Text in Search Box as : Auto OrgKeM
+ INFO [SearchOrganizationElement.java:208] - Clicked On Search Icon
+ INFO [SearchOrganizationElement.java:210] - Searching for Organization :Auto OrgKeM
+ INFO [SearchOrganizationElement.java:215] - Search Results data :Default
+ INFO [SearchOrganizationElement.java:216] - Search Functionality is verified
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [DemoRequest.java:35] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DemoRequest.java:36] - # # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # 
+ INFO [DemoRequest.java:37] - Chrome Driver Lunched
+ INFO [DemoRequest.java:38] - Chrome Browser Opened
+ INFO [HomePageLogo.java:25] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:26] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:27] - Browser Opend
+ INFO [HomePageLogo.java:28] - Redirected to Lobby
+ INFO [HomePageLogo.java:36] - ON Home Page 
+ INFO [HomePageLogo.java:37] - Looking for Logo
+ INFO [HomePageLogo.java:38] - Searching for Logo
+ INFO [HomePageLogo.java:41] - Logo Displaying
+ INFO [HomePageLogo.java:43] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:44] - Verified Logo on Home Page
+ INFO [ForgotPassword.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ForgotPassword.java:27] - # # # # # # # # VERIFICATION OF FORGET PASSWORD # # # # # # # # # 
+ INFO [ForgotPassword.java:48] - Test Started to test forget password page Verification
+ INFO [ForgotPassword.java:52] - Clicked on forget Password Link/Button
+ INFO [ForgotPassword.java:59] - Entered Email  is: naveenchevula221@gmail.com
+ INFO [ForgotPassword.java:61] - Clicked On Submit Button
+ INFO [ForgotPassword.java:63] - Email Sent Successfully
+ INFO [ForgotPassword.java:64] - true
+ INFO [ForgotPassword.java:66] - Able to see Go Back Button
+ INFO [ForgotPassword.java:68] - Clicked on Go Back Button
+ INFO [ForgotPassword.java:69] - Forget Password Functionality Verification Done
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :598397
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [LogIn.java:146] - Seareching for Support Button
+ INFO [LogIn.java:148] - Clicked on Search Button
+ INFO [LogIn.java:149] - Support Page is opened
+ INFO [LogIn.java:151] - https://console.td112.net/customer/support
+ INFO [LogIn.java:153] - Clicked on Create ticket
+ INFO [LogIn.java:155] - create ticket Window Opend
+ INFO [LogIn.java:157] - Enter Subject
+ INFO [LogIn.java:163] - Enter Subject As :
+ INFO [LogIn.java:165] - Enter Organization
+ INFO [LogIn.java:169] - Enter Text As  Test
+ INFO [LogIn.java:171] - Enter Organization
+ INFO [LogIn.java:175] - Select organization :
+ INFO [LogIn.java:178] - clicked on Category Dropdown
+ INFO [LogIn.java:181] - Selected Category
+ INFO [LogIn.java:184] - Clicked on Assigne
+ INFO [LogIn.java:188] - Entered Support in Text Box
+ INFO [LogIn.java:192] - Selcetd Support as Assigne from drop down
+ INFO [LogIn.java:195] - Entered Description As :Testing Create ticket Senario Automation
+ INFO [LogIn.java:212] - Clicked on Submit Button
+ INFO [LogIn.java:213] - Ticket Created Successfully
+ INFO [LogIn.java:216] - List of ticket's data displaying Assignee
+Status
+Priority
+Category
+Submit
+Create Ticket
+Ticket Status Last updated Category Subject Priority Organization Assignee
+#200 Open 2023-03-23 14:50:36 Billing Test Automation Create ticket Low Auto OrgBVA support@alphanetworks.com.sg
+#199 2023-03-23 14:18:01
+ INFO [HeaderLinks.java:25] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HeaderLinks.java:26] - # # # # # # # # VERIFICATION OF HEADER LINKS # # # # # # # # # 
+ INFO [HeaderLinks.java:27] - Chrome Driver Lunched
+ INFO [HeaderLinks.java:28] - Chrome Browser Opened
+ INFO [HeaderLinks.java:49] - on header
+ INFO [HeaderLinks.java:51] - Clicked On Solution Button
+ INFO [HeaderLinks.java:52] - https://web.td112.net/
+ INFO [HeaderLinks.java:53] - 
+ Verified : Clickin action of Solutions Button
+ INFO [HeaderLinks.java:54] - https://web.td112.net/
+ INFO [HeaderLinks.java:61] -  On WAF Button
+ INFO [HeaderLinks.java:63] -  Clicked WAF Button
+ INFO [HeaderLinks.java:64] - https://web.td112.net/waf
+ INFO [HeaderLinks.java:66] - 
+ Verified : Clickin action of Solutions Button and Verified WAF Button opening new tab
+ INFO [HeaderLinks.java:67] -  Verified WAF Button
+ INFO [HeaderLinks.java:71] -  Go Back to Home page 
+ INFO [HeaderLinks.java:72] -  On Home Page 
+ INFO [HeaderLinks.java:73] -   Searching for Bot Managament Section
+ INFO [HeaderLinks.java:75] -  Found Bot Managament Section
+ INFO [HeaderLinks.java:77] -  Clciked on Bot Managament Section
+ INFO [HeaderLinks.java:79] - https://web.td112.net/bot
+ INFO [HeaderLinks.java:81] - 
+ Verified : Clickin action of Solutions Button and Verified Boat Management opening new tab
+ INFO [HeaderLinks.java:86] - go Back to home page
+ INFO [HeaderLinks.java:87] - Search For WedAcceleration
+ INFO [HeaderLinks.java:89] -  WedAcceleration is disaplyed
+ INFO [HeaderLinks.java:90] - Click on WedAcceleration
+ INFO [HeaderLinks.java:92] - https://web.td112.net/web
+ INFO [HeaderLinks.java:94] - 
+ Verified : Clickin action of Solutions Button and Verified Web Accelaration opening new tab
+ INFO [HeaderLinks.java:96] - Verified  WedAcceleration
+ INFO [HeaderLinks.java:100] - Go back to home page
+ INFO [HeaderLinks.java:101] - Search for AuthoritativeDNS
+ INFO [HeaderLinks.java:103] - Found AuthoritativeDNS
+ INFO [HeaderLinks.java:105] - Clicked on AuthoritativeDNS
+ INFO [HeaderLinks.java:107] - https://web.td112.net/dns
+ INFO [HeaderLinks.java:108] - 
+ Verified : Clickin action of Solutions Button and Verified AuthoritativeDNS opening new tab
+ INFO [HeaderLinks.java:110] - verified  AuthoritativeDNS
+ INFO [HeaderLinks.java:111] - verification of home page Compleated
+ INFO [ContactUsFuctionality.java:96] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:97] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:98] - Redirected to Lobby 
+ INFO [ContactUsFuctionality.java:99] - ON Home Page 
+ INFO [ContactUsFuctionality.java:100] - Contact Us Button Test Started
+ INFO [ContactUsFuctionality.java:102] - Click on contact us Button on home page 
+ INFO [ContactUsFuctionality.java:103] - Click on contact us Button
+ INFO [ContactUsFuctionality.java:104] - Contact us pop is opended
+ INFO [ContactUsFuctionality.java:110] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsFuctionality.java:111] - redirected to contact us form 
+ INFO [ContactUsFuctionality.java:113] - Able to see Contact Us Form 
+ INFO [ContactUsFuctionality.java:114] - Cleared form
+ INFO [ContactUsFuctionality.java:115] - Entering Info in the form
+ INFO [ContactUsFuctionality.java:117] - Entered FirstName
+ INFO [ContactUsFuctionality.java:119] - first Name Entered as :Naveen
+ INFO [ContactUsFuctionality.java:123] - Entered LastName
+ INFO [ContactUsFuctionality.java:125] - Last Name Entered as :chevula
+ INFO [ContactUsFuctionality.java:126] - Entering Phone number
+ INFO [ContactUsFuctionality.java:130] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsFuctionality.java:132] - Entering Email
+ INFO [ContactUsFuctionality.java:136] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsFuctionality.java:139] - Entering Company Name 
+ INFO [ContactUsFuctionality.java:144] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsFuctionality.java:146] - Selecting Role From DropDown
+ INFO [ContactUsFuctionality.java:150] - Selected Role as : Software Engineer
+ INFO [ContactUsFuctionality.java:152] - Entering Note
+ INFO [ContactUsFuctionality.java:157] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:160] - Clicked on Send Message button
+ INFO [ContactUsFuctionality.java:163] - Message set Succesfull
+ INFO [ContactUsFuctionality.java:164] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsFuctionality.java:166] - Contact Us Button on home page is verified
+ INFO [ContactUsFuctionality.java:171] - Open Lobby Url
+ INFO [ContactUsFuctionality.java:172] - Searching for Loggin Button
+ INFO [ContactUsFuctionality.java:173] - Clicked On Login Button
+ INFO [ContactUsFuctionality.java:175] - Redirected to Login Page
+ INFO [ContactUsFuctionality.java:176] - verifing login page 
+ INFO [ContactUsFuctionality.java:177] - found Email & Password Boxes
+ INFO [ContactUsFuctionality.java:180] - Clear email Box
+ INFO [ContactUsFuctionality.java:182] - Enter Email Id 
+ INFO [ContactUsFuctionality.java:184] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [ContactUsFuctionality.java:186] - Search For Password Box
+ INFO [ContactUsFuctionality.java:188] - Clear Password Box
+ INFO [ContactUsFuctionality.java:190] - Enter Password 
+ INFO [ContactUsFuctionality.java:192] - Entered Email as :AA1@34aa
+ INFO [ContactUsFuctionality.java:194] - Search For Submit Button
+ INFO [ContactUsFuctionality.java:196] - Clicked On Submit Button
+ INFO [ContactUsFuctionality.java:197] - IS button DISPlAYING :  true
+ INFO [ContactUsFuctionality.java:198] - Redirected to Enter Code page 
+ INFO [ContactUsFuctionality.java:200] - Fetching Code From Google Authenticator
+ INFO [ContactUsFuctionality.java:202] - Enter Code in Box 
+ INFO [ContactUsFuctionality.java:204] - Entered 2 factor code as :598397
+ INFO [ContactUsFuctionality.java:206] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:208] - Search For Done Button 
+ INFO [ContactUsFuctionality.java:209] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:211] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:212] - redirected to Back Office
+ INFO [ContactUsFuctionality.java:213] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:214] - Logged in Succesfully
+ INFO [ContactUsFuctionality.java:223] - Redirected to contactus page back office
+ INFO [ContactUsFuctionality.java:224] - List of data is displaying
+ INFO [ContactUsFuctionality.java:227] - Clicked on view
+ INFO [ContactUsFuctionality.java:229] - Displaying content as ;Name: Naveen chevula
+Email: xyz@gmail.com
+Company: Automation Organization
+Job Title: Software Engineer
+Phone: +91 9963802616
+Message:
+Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:232] - Clicked on Close Button
+ INFO [ContactUsFuctionality.java:233] - View closed
+ INFO [ContactUsFuctionality.java:241] - Clicked on reply icon
+ INFO [ContactUsFuctionality.java:242] - Window pop up is opened
+ INFO [ContactUsFuctionality.java:245] - Clicked on yes icon
+ INFO [ContactUsFuctionality.java:246] - Popup is closed
+ INFO [ContactUsFuctionality.java:247] - unable to see record
+ INFO [ContactUsFuctionality.java:248] - Test passed succesfully
+ INFO [ContactUsButton.java:57] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsButton.java:58] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsButton.java:59] - Redirected to Lobby 
+ INFO [ContactUsButton.java:60] - ON Home Page 
+ INFO [ContactUsButton.java:61] - Contact Us Button Test Started
+ INFO [ContactUsButton.java:63] - Click on contact us Button on home page 
+ INFO [ContactUsButton.java:64] - Click on contact us Button
+ INFO [ContactUsButton.java:65] - Contact us pop is opended
+ INFO [ContactUsButton.java:71] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsButton.java:72] - redirected to contact us form 
+ INFO [ContactUsButton.java:74] - Able to see Contact Us Form 
+ INFO [ContactUsButton.java:75] - Cleared form
+ INFO [ContactUsButton.java:76] - Entering Info in the form
+ INFO [ContactUsButton.java:78] - Entered FirstName
+ INFO [ContactUsButton.java:80] - first Name Entered as :Naveen
+ INFO [ContactUsButton.java:84] - Entered LastName
+ INFO [ContactUsButton.java:86] - Last Name Entered as :chevula
+ INFO [ContactUsButton.java:87] - Entering Phone number
+ INFO [ContactUsButton.java:91] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsButton.java:93] - Entering Email
+ INFO [ContactUsButton.java:97] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsButton.java:100] - Entering Company Name 
+ INFO [ContactUsButton.java:105] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsButton.java:107] - Selecting Role From DropDown
+ INFO [ContactUsButton.java:111] - Selected Role as : Software Engineer
+ INFO [ContactUsButton.java:113] - Entering Note
+ INFO [ContactUsButton.java:118] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsButton.java:121] - Clicked on Send Message button
+ INFO [ContactUsButton.java:124] - Message set Succesfull
+ INFO [ContactUsButton.java:125] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsButton.java:127] - Contact Us Button on home page is verified
+ INFO [DashBoard.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DashBoard.java:27] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :082614
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [DashBoard.java:50] - verifying Profile Icon
+ INFO [DashBoard.java:51] - Clicked on Profile Icon
+ INFO [DashBoard.java:52] - Profile Icon Window opend
+ INFO [DashBoard.java:53] - Verified Profile Section
+ INFO [DashBoard.java:54] - Closed Profile Section
+ INFO [DashBoard.java:60] - verifying Components on Dashbaord
+ INFO [DashBoard.java:61] - Clicking on Organization dropdown
+ INFO [DashBoard.java:63] - Organization Drop down is Opend
+ INFO [DashBoard.java:67] - Organization Section Closed
+ INFO [DashBoard.java:68] - Service section
+ INFO [DashBoard.java:69] - Verifying Service section
+ INFO [DashBoard.java:73] - Clicked on Service section
+ INFO [DashBoard.java:74] - Heading Dispalying as : Services
+ INFO [DashBoard.java:75] - Service section is Opened 
+ INFO [DashBoard.java:76] - List of Options under Service Section Recently visited
+No Recently Visited
+All services
+Dashboard
+Organization Dashboard
+Organization
+Organization Listing
+Billing Management
+User Management
+Approve Demo
+Products
+Domain Listing
+Reports
+Provider Report
+Customer Support
+Support
+Contact Us
+ INFO [DashBoard.java:79] - Service Section is Closed 
+ INFO [DashBoard.java:80] - Verifying Support Icon on Header
+ INFO [DashBoard.java:81] - Searching for Support Icon on Header
+ INFO [DashBoard.java:83] - Support Icon Is displayed :true
+ INFO [DashBoard.java:85] - Clicked on Support icon
+ INFO [DashBoard.java:86] - Support page is opened
+ INFO [DashBoard.java:88] - https://console.td112.net/customer/support
+ INFO [DashBoard.java:89] - Searching for logout
+ INFO [DashBoard.java:90] - Clicked on Logout Button
+ INFO [DashBoard.java:94] - Successfully Logged out
+ INFO [DashBoard.java:95] - Verified Dashboard functionality
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :082614
+ INFO [LogIn.java:123] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - http://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [FooterLinks.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [FooterLinks.java:29] - # # # # # # # # VERIFICATION OF FOOTER LINKS # # # # # # # # # 
+ INFO [FooterLinks.java:30] - Browser Lunched
+ INFO [FooterLinks.java:67] - Page Scrolled Down
+ INFO [FooterLinks.java:69] - ON Service and Support Box Section
+ INFO [FooterLinks.java:75] - Clicked On Learning Link
+ INFO [FooterLinks.java:78] - Current Url : https://web.td112.net/
+ INFO [FooterLinks.java:79] - ON Learning Page
+ INFO [FooterLinks.java:85] - ON contact Sale's Links
+ INFO [FooterLinks.java:86] - Current Url : https://web.td112.net/
+ INFO [FooterLinks.java:88] - ON Billing section
+ INFO [FooterLinks.java:93] - Clicked on My Account Link
+ INFO [FooterLinks.java:94] - On My Account Link
+ INFO [FooterLinks.java:100] - Clicked on Pricing
+ INFO [FooterLinks.java:101] - On Pricing page 
+ INFO [FooterLinks.java:105] - ON QUICK LINKS section
+ INFO [FooterLinks.java:109] - Clicked on About Us
+ INFO [FooterLinks.java:110] - On About Us
+ INFO [FooterLinks.java:114] - Clicked on CaseStudies
+ INFO [FooterLinks.java:115] - On CaseStudies
+ INFO [FooterLinks.java:119] - Clicked on RequestDemolink
+ INFO [FooterLinks.java:120] - On RequestDemolink
+ INFO [FooterLinks.java:122] - Footer Links verified
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:86] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:87] - # # # # # # # # VERIFICATION OF ADD ORGANIZATION # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :905747
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [AddOrganization.java:90] - Searching for Select Service button
+ INFO [AddOrganization.java:91] - clicking on Select service
+ INFO [AddOrganization.java:94] - Searching for Organisation listing button
+ INFO [AddOrganization.java:95] - clicking on Organisation listing button
+ INFO [AddOrganization.java:97] - Organization Listing page opend
+ INFO [AddOrganization.java:98] - Searching for Add Organization Button
+ INFO [AddOrganization.java:99] - Clicking on Add Organization Button
+ INFO [AddOrganization.java:101] - Add organization from is opened
+ INFO [AddOrganization.java:110] - clearing form
+ INFO [AddOrganization.java:111] - Entering Organization Name
+ INFO [AddOrganization.java:115] - Entering Organization Name as :Auto OrgGzu
+ INFO [AddOrganization.java:118] - Clicked on country dropdown
+ INFO [AddOrganization.java:120] - Selected Country
+ INFO [AddOrganization.java:123] - Entering Phone number
+ INFO [AddOrganization.java:125] - Entered Phone number as :9963803657
+ INFO [AddOrganization.java:127] - Entering Address
+ INFO [AddOrganization.java:129] - Entered Address asAuto OrgrOS
+ INFO [AddOrganization.java:131] - Entering Email Id 
+ INFO [AddOrganization.java:133] - Entered Email Id as :autogeu@mailinator.com
+ INFO [AddOrganization.java:134] - Entering Billing Address 
+ INFO [AddOrganization.java:136] - Entered Billing Address :Auto Orgkee
+ INFO [AddOrganization.java:137] - Entering registration Number
+ INFO [AddOrganization.java:139] - Entered registration Number as :9963803644
+ INFO [AddOrganization.java:147] - Clicked on Select Subscription Plan
+ INFO [AddOrganization.java:150] -  Subscription Plan is Selected
+ INFO [AddOrganization.java:151] -  Page Scrolled for Admin Section
+ INFO [AddOrganization.java:171] - Clearing admin Section
+ INFO [AddOrganization.java:173] - Entered Admin Email As :autogeu@mailinator.com
+ INFO [AddOrganization.java:175] - Entered Admin First Name as :Auto OrgGzu
+ INFO [AddOrganization.java:177] - Entered Admin Last Name as :Auto OrgGzu
+ INFO [AddOrganization.java:179] - Entered Admin Number as :9963803657
+ INFO [AddOrganization.java:183] - clicked on Select Country
+ INFO [AddOrganization.java:190] - Selected Country
+ INFO [AddOrganization.java:191] - Searching for submit button
+ INFO [AddOrganization.java:193] - Clicked on Submit button
+ INFO [AddOrganization.java:194] - Organization Created Successfully
+ INFO [AddOrganization.java:199] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:200] - # # # # # # # # VERIFICATION OF SEARCH ORGANIZATION FUNCTIONALITY # # # # # # # # # 
+ INFO [AddOrganization.java:204] - Searchbox
+ INFO [AddOrganization.java:206] - Clicked on Searchbox
+ INFO [AddOrganization.java:209] - Searching for company newly created  :::::: Auto OrgGzu
+ INFO [AddOrganization.java:211] - Entered Company name and cliking on enter
+ INFO [AddOrganization.java:212] - able to see created organization
+ INFO [AddOrganization.java:213] - Organization details :::::: Auto OrgGzu
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :353573
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [SearchOrganizationElement.java:99] - Searching for Select Service button
+ INFO [SearchOrganizationElement.java:100] - clicking on Select service
+ INFO [SearchOrganizationElement.java:103] - Searching for Organisation listing button
+ INFO [SearchOrganizationElement.java:104] - clicking on Organisation listing button
+ INFO [SearchOrganizationElement.java:106] - Organization Listing page opend
+ INFO [SearchOrganizationElement.java:107] - Searching for Add Organization Button
+ INFO [SearchOrganizationElement.java:108] - Clicking on Add Organization Button
+ INFO [SearchOrganizationElement.java:110] - Add organization from is opened
+ INFO [SearchOrganizationElement.java:116] - clearing form
+ INFO [SearchOrganizationElement.java:117] - Entering Organization Name
+ INFO [SearchOrganizationElement.java:120] - Entering Organization Name as :Auto OrgcuT
+ INFO [SearchOrganizationElement.java:123] - Clicked on country dropdown
+ INFO [SearchOrganizationElement.java:125] - Selected Country
+ INFO [SearchOrganizationElement.java:128] - Entering Phone number
+ INFO [SearchOrganizationElement.java:130] - Entered Phone number as :9963803624
+ INFO [SearchOrganizationElement.java:132] - Entering Address
+ INFO [SearchOrganizationElement.java:134] - Entered Address asAuto OrgBZT
+ INFO [SearchOrganizationElement.java:136] - Entering Email Id 
+ INFO [SearchOrganizationElement.java:138] - Entered Email Id as :autoikr@mailinator.com
+ INFO [SearchOrganizationElement.java:139] - Entering Billing Address 
+ INFO [SearchOrganizationElement.java:141] - Entered Billing Address :Auto OrgPxc
+ INFO [SearchOrganizationElement.java:142] - Entering registration Number
+ INFO [SearchOrganizationElement.java:144] - Entered registration Number as :9963803693
+ INFO [SearchOrganizationElement.java:152] - Clicked on Select Subscription Plan
+ INFO [SearchOrganizationElement.java:155] -  Subscription Plan is Selected
+ INFO [SearchOrganizationElement.java:156] -  Page Scrolled for Admin Section
+ INFO [SearchOrganizationElement.java:176] - Clearing admin Section
+ INFO [SearchOrganizationElement.java:178] - Entered Admin Email As :autoikr@mailinator.com
+ INFO [SearchOrganizationElement.java:180] - Entered Admin First Name as :Auto OrgcuT
+ INFO [SearchOrganizationElement.java:182] - Entered Admin Last Name as :Auto OrgcuT
+ INFO [SearchOrganizationElement.java:184] - Entered Admin Number as :9963803624
+ INFO [SearchOrganizationElement.java:188] - clicked on Select Country
+ INFO [SearchOrganizationElement.java:196] - Selected Country
+ INFO [SearchOrganizationElement.java:197] - Searching for submit button
+ INFO [SearchOrganizationElement.java:199] - Clicked on Submit button
+ INFO [SearchOrganizationElement.java:200] - Organization Created Successfully
+ INFO [SearchOrganizationElement.java:201] - Searching for Search Text Box
+ INFO [SearchOrganizationElement.java:202] - Search Box Founded
+ INFO [SearchOrganizationElement.java:204] - Clicked On Search Box
+ INFO [SearchOrganizationElement.java:206] - Enter Text in Search Box as : Auto OrgcuT
+ INFO [SearchOrganizationElement.java:208] - Clicked On Search Icon
+ INFO [SearchOrganizationElement.java:210] - Searching for Organization :Auto OrgcuT
+ INFO [SearchOrganizationElement.java:215] - Search Results data :Default
+ INFO [SearchOrganizationElement.java:216] - Search Functionality is verified
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :646584
+ INFO [LogIn.java:123] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - http://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [SearchOrganizationElement.java:99] - Searching for Select Service button
+ INFO [SearchOrganizationElement.java:100] - clicking on Select service
+ INFO [SearchOrganizationElement.java:103] - Searching for Organisation listing button
+ INFO [SearchOrganizationElement.java:104] - clicking on Organisation listing button
+ INFO [SearchOrganizationElement.java:106] - Organization Listing page opend
+ INFO [SearchOrganizationElement.java:107] - Searching for Add Organization Button
+ INFO [SearchOrganizationElement.java:108] - Clicking on Add Organization Button
+ INFO [SearchOrganizationElement.java:110] - Add organization from is opened
+ INFO [SearchOrganizationElement.java:116] - clearing form
+ INFO [SearchOrganizationElement.java:117] - Entering Organization Name
+ INFO [SearchOrganizationElement.java:120] - Entering Organization Name as :Auto OrgmeW
+ INFO [SearchOrganizationElement.java:123] - Clicked on country dropdown
+ INFO [SearchOrganizationElement.java:125] - Selected Country
+ INFO [SearchOrganizationElement.java:128] - Entering Phone number
+ INFO [SearchOrganizationElement.java:130] - Entered Phone number as :9963803631
+ INFO [SearchOrganizationElement.java:132] - Entering Address
+ INFO [SearchOrganizationElement.java:134] - Entered Address asAuto OrgCaw
+ INFO [SearchOrganizationElement.java:136] - Entering Email Id 
+ INFO [SearchOrganizationElement.java:138] - Entered Email Id as :autoczi@mailinator.com
+ INFO [SearchOrganizationElement.java:139] - Entering Billing Address 
+ INFO [SearchOrganizationElement.java:141] - Entered Billing Address :Auto OrgSQO
+ INFO [SearchOrganizationElement.java:142] - Entering registration Number
+ INFO [SearchOrganizationElement.java:144] - Entered registration Number as :9963803603
+ INFO [SearchOrganizationElement.java:152] - Clicked on Select Subscription Plan
+ INFO [SearchOrganizationElement.java:155] -  Subscription Plan is Selected
+ INFO [SearchOrganizationElement.java:156] -  Page Scrolled for Admin Section
+ INFO [SearchOrganizationElement.java:176] - Clearing admin Section
+ INFO [SearchOrganizationElement.java:178] - Entered Admin Email As :autoczi@mailinator.com
+ INFO [SearchOrganizationElement.java:180] - Entered Admin First Name as :Auto OrgmeW
+ INFO [SearchOrganizationElement.java:182] - Entered Admin Last Name as :Auto OrgmeW
+ INFO [SearchOrganizationElement.java:184] - Entered Admin Number as :9963803631
+ INFO [SearchOrganizationElement.java:188] - clicked on Select Country
+ INFO [SearchOrganizationElement.java:196] - Selected Country
+ INFO [SearchOrganizationElement.java:197] - Searching for submit button
+ INFO [SearchOrganizationElement.java:199] - Clicked on Submit button
+ INFO [SearchOrganizationElement.java:200] - Organization Created Successfully
+ INFO [SearchOrganizationElement.java:201] - Searching for Search Text Box
+ INFO [SearchOrganizationElement.java:202] - Search Box Founded
+ INFO [SearchOrganizationElement.java:204] - Clicked On Search Box
+ INFO [SearchOrganizationElement.java:206] - Enter Text in Search Box as : Auto OrgmeW
+ INFO [SearchOrganizationElement.java:208] - Clicked On Search Icon
+ INFO [SearchOrganizationElement.java:210] - Searching for Organization :Auto OrgmeW
+ INFO [SearchOrganizationElement.java:215] - Search Results data :Default
+ INFO [SearchOrganizationElement.java:216] - Search Functionality is verified
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ReportsPagedata.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ReportsPagedata.java:27] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :440857
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [ReportsPagedata.java:40] - Logged into Back office
+ INFO [ReportsPagedata.java:42] - Services Button found
+ INFO [ReportsPagedata.java:43] - Clicking on Services
+ INFO [ReportsPagedata.java:45] - Services Drop down is Opend
+ INFO [ReportsPagedata.java:48] - Clicked on Provide report button
+ INFO [ReportsPagedata.java:49] - Redirected to Reports page
+ INFO [ReportsPagedata.java:51] - Current url :https://console.td112.net/reports/provider
+ INFO [ReportsPagedata.java:52] - Reports page is opend
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:39] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [SearchOrganizationElement.java:40] - # # # # # # # # VERIFICATION OF SEARCH FUNTIONALITY # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :440857
+ INFO [LogIn.java:123] - Current Url :http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - http://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - http://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [SearchOrganizationElement.java:99] - Searching for Select Service button
+ INFO [SearchOrganizationElement.java:100] - clicking on Select service
+ INFO [SearchOrganizationElement.java:103] - Searching for Organisation listing button
+ INFO [SearchOrganizationElement.java:104] - clicking on Organisation listing button
+ INFO [SearchOrganizationElement.java:106] - Organization Listing page opend
+ INFO [SearchOrganizationElement.java:107] - Searching for Add Organization Button
+ INFO [SearchOrganizationElement.java:108] - Clicking on Add Organization Button
+ INFO [SearchOrganizationElement.java:110] - Add organization from is opened
+ INFO [SearchOrganizationElement.java:116] - clearing form
+ INFO [SearchOrganizationElement.java:117] - Entering Organization Name
+ INFO [SearchOrganizationElement.java:120] - Entering Organization Name as :Auto OrgZqR
+ INFO [SearchOrganizationElement.java:123] - Clicked on country dropdown
+ INFO [SearchOrganizationElement.java:125] - Selected Country
+ INFO [SearchOrganizationElement.java:128] - Entering Phone number
+ INFO [SearchOrganizationElement.java:130] - Entered Phone number as :9963803694
+ INFO [SearchOrganizationElement.java:132] - Entering Address
+ INFO [SearchOrganizationElement.java:134] - Entered Address asAuto Orghad
+ INFO [SearchOrganizationElement.java:136] - Entering Email Id 
+ INFO [SearchOrganizationElement.java:138] - Entered Email Id as :autolsu@mailinator.com
+ INFO [SearchOrganizationElement.java:139] - Entering Billing Address 
+ INFO [SearchOrganizationElement.java:141] - Entered Billing Address :Auto OrgAAY
+ INFO [SearchOrganizationElement.java:142] - Entering registration Number
+ INFO [SearchOrganizationElement.java:144] - Entered registration Number as :9963803676
+ INFO [SearchOrganizationElement.java:152] - Clicked on Select Subscription Plan
+ INFO [SearchOrganizationElement.java:155] -  Subscription Plan is Selected
+ INFO [SearchOrganizationElement.java:156] -  Page Scrolled for Admin Section
+ INFO [SearchOrganizationElement.java:176] - Clearing admin Section
+ INFO [SearchOrganizationElement.java:178] - Entered Admin Email As :autolsu@mailinator.com
+ INFO [SearchOrganizationElement.java:180] - Entered Admin First Name as :Auto OrgZqR
+ INFO [SearchOrganizationElement.java:182] - Entered Admin Last Name as :Auto OrgZqR
+ INFO [SearchOrganizationElement.java:184] - Entered Admin Number as :9963803694
+ INFO [SearchOrganizationElement.java:188] - clicked on Select Country
+ INFO [SearchOrganizationElement.java:196] - Selected Country
+ INFO [SearchOrganizationElement.java:197] - Searching for submit button
+ INFO [SearchOrganizationElement.java:199] - Clicked on Submit button
+ INFO [SearchOrganizationElement.java:200] - Organization Created Successfully
+ INFO [SearchOrganizationElement.java:201] - Searching for Search Text Box
+ INFO [SearchOrganizationElement.java:202] - Search Box Founded
+ INFO [SearchOrganizationElement.java:204] - Clicked On Search Box
+ INFO [SearchOrganizationElement.java:206] - Enter Text in Search Box as : Auto OrgZqR
+ INFO [SearchOrganizationElement.java:208] - Clicked On Search Icon
+ INFO [SearchOrganizationElement.java:210] - Searching for Organization :Auto OrgZqR
+ INFO [SearchOrganizationElement.java:215] - Search Results data :Auto OrgZqR
+ INFO [SearchOrganizationElement.java:216] - Search Functionality is verified
+ INFO [DemoRequest.java:35] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DemoRequest.java:36] - # # # # # # # # VERIFICATION OF REQUEST DEMO FUCTIONALITY # # # # # # # # # 
+ INFO [DemoRequest.java:37] - Chrome Driver Lunched
+ INFO [DemoRequest.java:38] - Chrome Browser Opened
+ INFO [HomePageLogo.java:25] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HomePageLogo.java:26] - # # # # # # # # VERIFICATION OF LOGO ON HOME PAGE # # # # # # # # # 
+ INFO [HomePageLogo.java:27] - Browser Opend
+ INFO [HomePageLogo.java:28] - Redirected to Lobby
+ INFO [HomePageLogo.java:36] - ON Home Page 
+ INFO [HomePageLogo.java:37] - Looking for Logo
+ INFO [HomePageLogo.java:38] - Searching for Logo
+ INFO [HomePageLogo.java:41] - Logo Displaying
+ INFO [HomePageLogo.java:43] - IS LOGO DISPlAYING :  true
+ INFO [HomePageLogo.java:44] - Verified Logo on Home Page
+ INFO [ForgotPassword.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ForgotPassword.java:27] - # # # # # # # # VERIFICATION OF FORGET PASSWORD # # # # # # # # # 
+ INFO [ForgotPassword.java:48] - Test Started to test forget password page Verification
+ INFO [ForgotPassword.java:52] - Clicked on forget Password Link/Button
+ INFO [ForgotPassword.java:59] - Entered Email  is: naveenchevula221@gmail.com
+ INFO [ForgotPassword.java:61] - Clicked On Submit Button
+ INFO [ForgotPassword.java:63] - Email Sent Successfully
+ INFO [ForgotPassword.java:64] - true
+ INFO [ForgotPassword.java:66] - Able to see Go Back Button
+ INFO [ForgotPassword.java:68] - Clicked on Go Back Button
+ INFO [ForgotPassword.java:69] - Forget Password Functionality Verification Done
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :872880
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [LogIn.java:146] - Seareching for Support Button
+ INFO [LogIn.java:148] - Clicked on Search Button
+ INFO [LogIn.java:149] - Support Page is opened
+ INFO [LogIn.java:151] - https://console.td112.net/customer/support
+ INFO [LogIn.java:153] - Clicked on Create ticket
+ INFO [LogIn.java:155] - create ticket Window Opend
+ INFO [LogIn.java:157] - Enter Subject
+ INFO [LogIn.java:163] - Enter Subject As :
+ INFO [LogIn.java:165] - Enter Organization
+ INFO [LogIn.java:169] - Enter Text As  Test
+ INFO [LogIn.java:171] - Enter Organization
+ INFO [LogIn.java:175] - Select organization :
+ INFO [LogIn.java:178] - clicked on Category Dropdown
+ INFO [LogIn.java:181] - Selected Category
+ INFO [LogIn.java:184] - Clicked on Assigne
+ INFO [LogIn.java:188] - Entered Support in Text Box
+ INFO [LogIn.java:192] - Selcetd Support as Assigne from drop down
+ INFO [LogIn.java:195] - Entered Description As :Testing Create ticket Senario Automation
+ INFO [LogIn.java:212] - Clicked on Submit Button
+ INFO [LogIn.java:213] - Ticket Created Successfully
+ INFO [LogIn.java:216] - List of ticket's data displaying Assignee
+Status
+Priority
+Category
+Submit
+Create Ticket
+Ticket Status Last updated Category Subject Priority Organization Assignee
+#201 Open 2023-03-24 11:32:05 Billing Test Automation Create ticket Low Auto OrgBVA support@alphanetworks.com.sg
+#200 2023-03-23 14:50:36
+ INFO [HeaderLinks.java:25] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [HeaderLinks.java:26] - # # # # # # # # VERIFICATION OF HEADER LINKS # # # # # # # # # 
+ INFO [HeaderLinks.java:27] - Chrome Driver Lunched
+ INFO [HeaderLinks.java:28] - Chrome Browser Opened
+ INFO [HeaderLinks.java:49] - on header
+ INFO [HeaderLinks.java:51] - Clicked On Solution Button
+ INFO [HeaderLinks.java:52] - http://web.td112.net/
+ INFO [HeaderLinks.java:53] - 
+ Verified : Clickin action of Solutions Button
+ INFO [HeaderLinks.java:54] - http://web.td112.net/
+ INFO [HeaderLinks.java:61] -  On WAF Button
+ INFO [HeaderLinks.java:63] -  Clicked WAF Button
+ INFO [HeaderLinks.java:64] - http://web.td112.net/waf
+ INFO [HeaderLinks.java:66] - 
+ Verified : Clickin action of Solutions Button and Verified WAF Button opening new tab
+ INFO [HeaderLinks.java:67] -  Verified WAF Button
+ INFO [HeaderLinks.java:71] -  Go Back to Home page 
+ INFO [HeaderLinks.java:72] -  On Home Page 
+ INFO [HeaderLinks.java:73] -   Searching for Bot Managament Section
+ INFO [HeaderLinks.java:75] -  Found Bot Managament Section
+ INFO [HeaderLinks.java:77] -  Clciked on Bot Managament Section
+ INFO [HeaderLinks.java:79] - http://web.td112.net/bot
+ INFO [HeaderLinks.java:81] - 
+ Verified : Clickin action of Solutions Button and Verified Boat Management opening new tab
+ INFO [HeaderLinks.java:86] - go Back to home page
+ INFO [HeaderLinks.java:87] - Search For WedAcceleration
+ INFO [HeaderLinks.java:89] -  WedAcceleration is disaplyed
+ INFO [HeaderLinks.java:90] - Click on WedAcceleration
+ INFO [HeaderLinks.java:92] - http://web.td112.net/web
+ INFO [HeaderLinks.java:94] - 
+ Verified : Clickin action of Solutions Button and Verified Web Accelaration opening new tab
+ INFO [HeaderLinks.java:96] - Verified  WedAcceleration
+ INFO [HeaderLinks.java:100] - Go back to home page
+ INFO [HeaderLinks.java:101] - Search for AuthoritativeDNS
+ INFO [HeaderLinks.java:103] - Found AuthoritativeDNS
+ INFO [HeaderLinks.java:105] - Clicked on AuthoritativeDNS
+ INFO [HeaderLinks.java:107] - http://web.td112.net/dns
+ INFO [HeaderLinks.java:108] - 
+ Verified : Clickin action of Solutions Button and Verified AuthoritativeDNS opening new tab
+ INFO [HeaderLinks.java:110] - verified  AuthoritativeDNS
+ INFO [HeaderLinks.java:111] - verification of home page Compleated
+ INFO [ContactUsFuctionality.java:96] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:97] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsFuctionality.java:98] - Redirected to Lobby 
+ INFO [ContactUsFuctionality.java:99] - ON Home Page 
+ INFO [ContactUsFuctionality.java:100] - Contact Us Button Test Started
+ INFO [ContactUsFuctionality.java:102] - Click on contact us Button on home page 
+ INFO [ContactUsFuctionality.java:103] - Click on contact us Button
+ INFO [ContactUsFuctionality.java:104] - Contact us pop is opended
+ INFO [ContactUsFuctionality.java:110] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsFuctionality.java:111] - redirected to contact us form 
+ INFO [ContactUsFuctionality.java:113] - Able to see Contact Us Form 
+ INFO [ContactUsFuctionality.java:114] - Cleared form
+ INFO [ContactUsFuctionality.java:115] - Entering Info in the form
+ INFO [ContactUsFuctionality.java:117] - Entered FirstName
+ INFO [ContactUsFuctionality.java:119] - first Name Entered as :Naveen
+ INFO [ContactUsFuctionality.java:123] - Entered LastName
+ INFO [ContactUsFuctionality.java:125] - Last Name Entered as :chevula
+ INFO [ContactUsFuctionality.java:126] - Entering Phone number
+ INFO [ContactUsFuctionality.java:130] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsFuctionality.java:132] - Entering Email
+ INFO [ContactUsFuctionality.java:136] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsFuctionality.java:139] - Entering Company Name 
+ INFO [ContactUsFuctionality.java:144] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsFuctionality.java:146] - Selecting Role From DropDown
+ INFO [ContactUsFuctionality.java:150] - Selected Role as : Software Engineer
+ INFO [ContactUsFuctionality.java:152] - Entering Note
+ INFO [ContactUsFuctionality.java:157] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:160] - Clicked on Send Message button
+ INFO [ContactUsFuctionality.java:163] - Message set Succesfull
+ INFO [ContactUsFuctionality.java:164] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsFuctionality.java:166] - Contact Us Button on home page is verified
+ INFO [ContactUsFuctionality.java:171] - Open Lobby Url
+ INFO [ContactUsFuctionality.java:172] - Searching for Loggin Button
+ INFO [ContactUsFuctionality.java:173] - Clicked On Login Button
+ INFO [ContactUsFuctionality.java:175] - Redirected to Login Page
+ INFO [ContactUsFuctionality.java:176] - verifing login page 
+ INFO [ContactUsFuctionality.java:177] - found Email & Password Boxes
+ INFO [ContactUsFuctionality.java:180] - Clear email Box
+ INFO [ContactUsFuctionality.java:182] - Enter Email Id 
+ INFO [ContactUsFuctionality.java:184] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [ContactUsFuctionality.java:186] - Search For Password Box
+ INFO [ContactUsFuctionality.java:188] - Clear Password Box
+ INFO [ContactUsFuctionality.java:190] - Enter Password 
+ INFO [ContactUsFuctionality.java:192] - Entered Email as :AA1@34aa
+ INFO [ContactUsFuctionality.java:194] - Search For Submit Button
+ INFO [ContactUsFuctionality.java:196] - Clicked On Submit Button
+ INFO [ContactUsFuctionality.java:197] - IS button DISPlAYING :  true
+ INFO [ContactUsFuctionality.java:198] - Redirected to Enter Code page 
+ INFO [ContactUsFuctionality.java:200] - Fetching Code From Google Authenticator
+ INFO [ContactUsFuctionality.java:202] - Enter Code in Box 
+ INFO [ContactUsFuctionality.java:204] - Entered 2 factor code as :779602
+ INFO [ContactUsFuctionality.java:206] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:208] - Search For Done Button 
+ INFO [ContactUsFuctionality.java:209] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:211] - Clicked on Done Button 
+ INFO [ContactUsFuctionality.java:212] - redirected to Back Office
+ INFO [ContactUsFuctionality.java:213] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [ContactUsFuctionality.java:214] - Logged in Succesfully
+ INFO [ContactUsFuctionality.java:223] - Redirected to contactus page back office
+ INFO [ContactUsFuctionality.java:224] - List of data is displaying
+ INFO [ContactUsFuctionality.java:227] - Clicked on view
+ INFO [ContactUsFuctionality.java:229] - Displaying content as ;Name: Naveen chevula
+Email: xyz@gmail.com
+Company: Automation Organization
+Job Title: Software Engineer
+Phone: +91 9963802616
+Message:
+Automation Testing Scripting
+ INFO [ContactUsFuctionality.java:232] - Clicked on Close Button
+ INFO [ContactUsFuctionality.java:233] - View closed
+ INFO [ContactUsFuctionality.java:241] - Clicked on reply icon
+ INFO [ContactUsFuctionality.java:242] - Window pop up is opened
+ INFO [ContactUsFuctionality.java:245] - Clicked on yes icon
+ INFO [ContactUsFuctionality.java:246] - Popup is closed
+ INFO [ContactUsFuctionality.java:247] - unable to see record
+ INFO [ContactUsFuctionality.java:248] - Test passed succesfully
+ INFO [ContactUsButton.java:57] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [ContactUsButton.java:58] - # # # # # # # # VERIFICATION OF CONTACT US BUTTON # # # # # # # # # 
+ INFO [ContactUsButton.java:59] - Redirected to Lobby 
+ INFO [ContactUsButton.java:60] - ON Home Page 
+ INFO [ContactUsButton.java:61] - Contact Us Button Test Started
+ INFO [ContactUsButton.java:63] - Click on contact us Button on home page 
+ INFO [ContactUsButton.java:64] - Click on contact us Button
+ INFO [ContactUsButton.java:65] - Contact us pop is opended
+ INFO [ContactUsButton.java:71] - Click on contact us Button inside Pop- up 
+ INFO [ContactUsButton.java:72] - redirected to contact us form 
+ INFO [ContactUsButton.java:74] - Able to see Contact Us Form 
+ INFO [ContactUsButton.java:75] - Cleared form
+ INFO [ContactUsButton.java:76] - Entering Info in the form
+ INFO [ContactUsButton.java:78] - Entered FirstName
+ INFO [ContactUsButton.java:80] - first Name Entered as :Naveen
+ INFO [ContactUsButton.java:84] - Entered LastName
+ INFO [ContactUsButton.java:86] - Last Name Entered as :chevula
+ INFO [ContactUsButton.java:87] - Entering Phone number
+ INFO [ContactUsButton.java:91] - PhoneNumber Entered as :9963802616
+ INFO [ContactUsButton.java:93] - Entering Email
+ INFO [ContactUsButton.java:97] - PhoneNumber Entered as :xyz@gmail.com
+ INFO [ContactUsButton.java:100] - Entering Company Name 
+ INFO [ContactUsButton.java:105] - PhoneNumber Entered as :Automation Organization
+ INFO [ContactUsButton.java:107] - Selecting Role From DropDown
+ INFO [ContactUsButton.java:111] - Selected Role as : Software Engineer
+ INFO [ContactUsButton.java:113] - Entering Note
+ INFO [ContactUsButton.java:118] - Entering Note as :Automation Testing Scripting
+ INFO [ContactUsButton.java:121] - Clicked on Send Message button
+ INFO [ContactUsButton.java:124] - Message set Succesfull
+ INFO [ContactUsButton.java:125] - Displaying Success Message as : We will be in touch with you shortly.
+Thank you.
+ INFO [ContactUsButton.java:127] - Contact Us Button on home page is verified
+ INFO [DashBoard.java:26] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [DashBoard.java:27] - # # # # # # # # VERIFICATION OF DASHBOARD # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :884531
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [DashBoard.java:50] - verifying Profile Icon
+ INFO [DashBoard.java:51] - Clicked on Profile Icon
+ INFO [DashBoard.java:52] - Profile Icon Window opend
+ INFO [DashBoard.java:53] - Verified Profile Section
+ INFO [DashBoard.java:54] - Closed Profile Section
+ INFO [DashBoard.java:60] - verifying Components on Dashbaord
+ INFO [DashBoard.java:61] - Clicking on Organization dropdown
+ INFO [DashBoard.java:63] - Organization Drop down is Opend
+ INFO [DashBoard.java:67] - Organization Section Closed
+ INFO [DashBoard.java:68] - Service section
+ INFO [DashBoard.java:69] - Verifying Service section
+ INFO [DashBoard.java:73] - Clicked on Service section
+ INFO [DashBoard.java:74] - Heading Dispalying as : Services
+ INFO [DashBoard.java:75] - Service section is Opened 
+ INFO [DashBoard.java:76] - List of Options under Service Section Recently visited
+No Recently Visited
+All services
+Dashboard
+Organization Dashboard
+Organization
+Organization Listing
+Billing Management
+User Management
+Approve Demo
+Products
+Domain Listing
+Reports
+Provider Report
+Customer Support
+Support
+Contact Us
+ INFO [DashBoard.java:79] - Service Section is Closed 
+ INFO [DashBoard.java:80] - Verifying Support Icon on Header
+ INFO [DashBoard.java:81] - Searching for Support Icon on Header
+ INFO [DashBoard.java:83] - Support Icon Is displayed :true
+ INFO [DashBoard.java:85] - Clicked on Support icon
+ INFO [DashBoard.java:86] - Support page is opened
+ INFO [DashBoard.java:88] - https://console.td112.net/customer/support
+ INFO [DashBoard.java:89] - Searching for logout
+ INFO [DashBoard.java:90] - Clicked on Logout Button
+ INFO [DashBoard.java:94] - Successfully Logged out
+ INFO [DashBoard.java:95] - Verified Dashboard functionality
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :884531
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [FooterLinks.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [FooterLinks.java:29] - # # # # # # # # VERIFICATION OF FOOTER LINKS # # # # # # # # # 
+ INFO [FooterLinks.java:30] - Browser Lunched
+ INFO [FooterLinks.java:67] - Page Scrolled Down
+ INFO [FooterLinks.java:69] - ON Service and Support Box Section
+ INFO [FooterLinks.java:75] - Clicked On Learning Link
+ INFO [FooterLinks.java:78] - Current Url : https://web.td112.net/
+ INFO [FooterLinks.java:79] - ON Learning Page
+ INFO [FooterLinks.java:85] - ON contact Sale's Links
+ INFO [FooterLinks.java:86] - Current Url : https://web.td112.net/
+ INFO [FooterLinks.java:88] - ON Billing section
+ INFO [FooterLinks.java:93] - Clicked on My Account Link
+ INFO [FooterLinks.java:94] - On My Account Link
+ INFO [FooterLinks.java:100] - Clicked on Pricing
+ INFO [FooterLinks.java:101] - On Pricing page 
+ INFO [FooterLinks.java:105] - ON QUICK LINKS section
+ INFO [FooterLinks.java:109] - Clicked on About Us
+ INFO [FooterLinks.java:110] - On About Us
+ INFO [FooterLinks.java:114] - Clicked on CaseStudies
+ INFO [FooterLinks.java:115] - On CaseStudies
+ INFO [FooterLinks.java:119] - Clicked on RequestDemolink
+ INFO [FooterLinks.java:120] - On RequestDemolink
+ INFO [FooterLinks.java:122] - Footer Links verified
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:86] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:87] - # # # # # # # # VERIFICATION OF ADD ORGANIZATION # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :007320
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [AddOrganization.java:90] - Searching for Select Service button
+ INFO [AddOrganization.java:91] - clicking on Select service
+ INFO [AddOrganization.java:94] - Searching for Organisation listing button
+ INFO [AddOrganization.java:95] - clicking on Organisation listing button
+ INFO [AddOrganization.java:97] - Organization Listing page opend
+ INFO [AddOrganization.java:98] - Searching for Add Organization Button
+ INFO [AddOrganization.java:99] - Clicking on Add Organization Button
+ INFO [AddOrganization.java:101] - Add organization from is opened
+ INFO [AddOrganization.java:110] - clearing form
+ INFO [AddOrganization.java:111] - Entering Organization Name
+ INFO [AddOrganization.java:115] - Entering Organization Name as :Auto OrgFvv
+ INFO [AddOrganization.java:118] - Clicked on country dropdown
+ INFO [AddOrganization.java:120] - Selected Country
+ INFO [AddOrganization.java:123] - Entering Phone number
+ INFO [AddOrganization.java:125] - Entered Phone number as :9963803603
+ INFO [AddOrganization.java:127] - Entering Address
+ INFO [AddOrganization.java:129] - Entered Address asAuto OrgFOD
+ INFO [AddOrganization.java:131] - Entering Email Id 
+ INFO [AddOrganization.java:133] - Entered Email Id as :autopol@mailinator.com
+ INFO [AddOrganization.java:134] - Entering Billing Address 
+ INFO [AddOrganization.java:136] - Entered Billing Address :Auto OrgKnt
+ INFO [AddOrganization.java:137] - Entering registration Number
+ INFO [AddOrganization.java:139] - Entered registration Number as :9963803649
+ INFO [AddOrganization.java:147] - Clicked on Select Subscription Plan
+ INFO [AddOrganization.java:150] -  Subscription Plan is Selected
+ INFO [AddOrganization.java:151] -  Page Scrolled for Admin Section
+ INFO [AddOrganization.java:171] - Clearing admin Section
+ INFO [AddOrganization.java:173] - Entered Admin Email As :autopol@mailinator.com
+ INFO [AddOrganization.java:175] - Entered Admin First Name as :Auto OrgFvv
+ INFO [AddOrganization.java:177] - Entered Admin Last Name as :Auto OrgFvv
+ INFO [AddOrganization.java:179] - Entered Admin Number as :9963803603
+ INFO [AddOrganization.java:183] - clicked on Select Country
+ INFO [AddOrganization.java:190] - Selected Country
+ INFO [AddOrganization.java:191] - Searching for submit button
+ INFO [AddOrganization.java:193] - Clicked on Submit button
+ INFO [AddOrganization.java:194] - Organization Created Successfully
+ INFO [AddOrganization.java:199] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:200] - # # # # # # # # VERIFICATION OF SEARCH ORGANIZATION FUNCTIONALITY # # # # # # # # # 
+ INFO [AddOrganization.java:204] - Searchbox
+ INFO [AddOrganization.java:206] - Clicked on Searchbox
+ INFO [AddOrganization.java:209] - Searching for company newly created  :::::: Auto OrgFvv
+ INFO [AddOrganization.java:211] - Entered Company name and cliking on enter
+ INFO [AddOrganization.java:212] - able to see created organization
+ INFO [AddOrganization.java:213] - Organization details :::::: Auto OrgFvv
