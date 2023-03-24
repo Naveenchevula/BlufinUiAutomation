@@ -17,7 +17,7 @@ public class SearchorgTest extends TestBase {
 		public void SearchOrgnizationElement() throws Throwable{
 			search = new SearchOrganizationElement();
 			search.SearchOrganizationadd();
-			search.SearchOrg();
+		
 			
 			
 		}

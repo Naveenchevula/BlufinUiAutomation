@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[=====Browser Session Started=====]]>
@@ -119,12 +119,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-23T14:49:24 IST" name="Suite" finished-at="2023-03-23T14:51:55 IST" duration-ms="150478">
+  <suite started-at="2023-03-24T11:39:00 IST" name="Suite" finished-at="2023-03-24T11:41:17 IST" duration-ms="137296">
     <groups>
     </groups>
-    <test started-at="2023-03-23T14:49:24 IST" name="Test" finished-at="2023-03-23T14:51:55 IST" duration-ms="150478">
+    <test started-at="2023-03-24T11:39:00 IST" name="Test" finished-at="2023-03-24T11:41:17 IST" duration-ms="137296">
       <class name="bluefinUIAutomation.DashboardTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-23T14:51:05 IST" name="setupApplication" finished-at="2023-03-23T14:51:07 IST" duration-ms="2545" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-24T11:40:29 IST" name="setupApplication" finished-at="2023-03-24T11:40:31 IST" duration-ms="1942" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -134,11 +134,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="DashBordverify()[pri:1, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-23T14:51:07 IST" name="DashBordverify" description="Test Description   = Verification of DashBoard Components" finished-at="2023-03-23T14:51:13 IST" duration-ms="6015" status="PASS">
+        <test-method signature="DashBordverify()[pri:1, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-24T11:40:31 IST" name="DashBordverify" description="Test Description   = Verification of DashBoard Components" finished-at="2023-03-24T11:40:37 IST" duration-ms="6352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashBordverify -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-23T14:51:13 IST" name="closeApplication" finished-at="2023-03-23T14:51:15 IST" duration-ms="2006" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.DashboardTest@53aac487]" started-at="2023-03-24T11:40:37 IST" name="closeApplication" finished-at="2023-03-24T11:40:39 IST" duration-ms="2010" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -147,7 +147,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.DashboardTest -->
       <class name="bluefinUIAutomation.ContactusButtonTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-23T14:50:58 IST" name="setupApplication" finished-at="2023-03-23T14:51:00 IST" duration-ms="1646" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-24T11:40:21 IST" name="setupApplication" finished-at="2023-03-24T11:40:24 IST" duration-ms="3675" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -157,11 +157,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="ContactUsButtontest()[pri:3, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-23T14:51:00 IST" name="ContactUsButtontest" description=" Test Description   = Verification of contact  Button &amp; Send Message " finished-at="2023-03-23T14:51:03 IST" duration-ms="2377" status="PASS">
+        <test-method signature="ContactUsButtontest()[pri:3, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-24T11:40:24 IST" name="ContactUsButtontest" description=" Test Description   = Verification of contact  Button &amp; Send Message " finished-at="2023-03-24T11:40:27 IST" duration-ms="2473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsButtontest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-23T14:51:03 IST" name="closeApplication" finished-at="2023-03-23T14:51:05 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ContactusButtonTest@54e1c68b]" started-at="2023-03-24T11:40:27 IST" name="closeApplication" finished-at="2023-03-24T11:40:29 IST" duration-ms="2002" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -170,7 +170,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.ContactusButtonTest -->
       <class name="bluefinUIAutomation.LogoTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-23T14:50:15 IST" name="setupApplication" finished-at="2023-03-23T14:50:17 IST" duration-ms="1792" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-24T11:39:32 IST" name="setupApplication" finished-at="2023-03-24T11:39:36 IST" duration-ms="4031" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -180,11 +180,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="logoVerify()[pri:4, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-23T14:50:17 IST" name="logoVerify" description="Test Description   = Verification of LoGo Feature" finished-at="2023-03-23T14:50:18 IST" duration-ms="583" status="PASS">
+        <test-method signature="logoVerify()[pri:4, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-24T11:39:36 IST" name="logoVerify" description="Test Description   = Verification of LoGo Feature" finished-at="2023-03-24T11:39:37 IST" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoVerify -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-23T14:50:18 IST" name="closeApplication" finished-at="2023-03-23T14:50:20 IST" duration-ms="2015" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.LogoTest@6bd61f98]" started-at="2023-03-24T11:39:37 IST" name="closeApplication" finished-at="2023-03-24T11:39:39 IST" duration-ms="2006" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -193,7 +193,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.LogoTest -->
       <class name="bluefinUIAutomation.ReportsTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-23T14:49:24 IST" name="setupApplication" finished-at="2023-03-23T14:49:27 IST" duration-ms="2818" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-24T11:39:00 IST" name="setupApplication" finished-at="2023-03-24T11:39:03 IST" duration-ms="2867" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -203,11 +203,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="ReportsPage()[pri:6, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-23T14:49:27 IST" name="ReportsPage" description="Test Description   = Verification of Reports Back Office " finished-at="2023-03-23T14:49:31 IST" duration-ms="3766" status="PASS">
+        <test-method signature="ReportsPage()[pri:6, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-24T11:39:03 IST" name="ReportsPage" description="Test Description   = Verification of Reports Back Office " finished-at="2023-03-24T11:39:08 IST" duration-ms="4842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportsPage -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-23T14:49:31 IST" name="closeApplication" finished-at="2023-03-23T14:49:33 IST" duration-ms="2010" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ReportsTest@2dc54ad4]" started-at="2023-03-24T11:39:08 IST" name="closeApplication" finished-at="2023-03-24T11:39:10 IST" duration-ms="2006" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -216,7 +216,7 @@
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.ReportsTest -->
       <class name="bluefinUIAutomation.SearchorgTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-23T14:49:33 IST" name="setupApplication" finished-at="2023-03-23T14:49:35 IST" duration-ms="1857" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-24T11:39:10 IST" name="setupApplication" finished-at="2023-03-24T11:39:12 IST" duration-ms="2201" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -226,86 +226,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="SearchOrgnizationElement()[pri:3, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-23T14:49:35 IST" name="SearchOrgnizationElement" description="Test Description   = Verification of Search Organization" finished-at="2023-03-23T14:50:09 IST" duration-ms="34696" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@placeholder='Search'])"}
-  (Session info: chrome=111.0.5563.66)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f573f8fdae476aedb590acf34e4914ab, findElement {using=xpath, value=(//input[@placeholder='Search'])}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.66, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 111.0.5563.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f573f8fdae476aedb590acf34e4914ab]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@placeholder='Search'])"}
-  (Session info: chrome=111.0.5563.66)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f573f8fdae476aedb590acf34e4914ab, findElement {using=xpath, value=(//input[@placeholder='Search'])}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.66, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50543/devtoo..., se:cdpVersion: 111.0.5563.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f573f8fdae476aedb590acf34e4914ab
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at pageObjects.SearchOrganizationElement.organizationSearch(SearchOrganizationElement.java:203)
-at pageObjects.SearchOrganizationElement.SearchOrganizationadd(SearchOrganizationElement.java:222)
-at bluefinUIAutomation.SearchorgTest.SearchOrgnizationElement(SearchorgTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="SearchOrgnizationElement()[pri:3, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-24T11:39:12 IST" name="SearchOrgnizationElement" description="Test Description   = Verification of Search Organization" finished-at="2023-03-24T11:39:25 IST" duration-ms="12646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchOrgnizationElement -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-23T14:50:09 IST" name="closeApplication" finished-at="2023-03-23T14:50:11 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.SearchorgTest@59505b48]" started-at="2023-03-24T11:39:25 IST" name="closeApplication" finished-at="2023-03-24T11:39:27 IST" duration-ms="2012" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -314,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.SearchorgTest -->
       <class name="bluefinUIAutomation.AddOrganizationTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-23T14:51:31 IST" name="setupApplication" finished-at="2023-03-23T14:51:36 IST" duration-ms="4167" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-24T11:40:57 IST" name="setupApplication" finished-at="2023-03-24T11:41:00 IST" duration-ms="2883" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -324,11 +249,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="AddOrg()[pri:2, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-23T14:51:36 IST" name="AddOrg" description="Test Description   = Verification Add Organization" finished-at="2023-03-23T14:51:53 IST" duration-ms="16970" status="PASS">
+        <test-method signature="AddOrg()[pri:2, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-24T11:41:00 IST" name="AddOrg" description="Test Description   = Verification Add Organization" finished-at="2023-03-24T11:41:15 IST" duration-ms="15749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddOrg -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-23T14:51:53 IST" name="closeApplication" finished-at="2023-03-23T14:51:55 IST" duration-ms="2005" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.AddOrganizationTest@7db12bb6]" started-at="2023-03-24T11:41:15 IST" name="closeApplication" finished-at="2023-03-24T11:41:17 IST" duration-ms="2011" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -337,7 +262,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.AddOrganizationTest -->
       <class name="bluefinUIAutomation.ForgetPasswordTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-23T14:50:20 IST" name="setupApplication" finished-at="2023-03-23T14:50:21 IST" duration-ms="1664" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-24T11:39:39 IST" name="setupApplication" finished-at="2023-03-24T11:39:41 IST" duration-ms="2316" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -347,11 +272,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="fogetpassword()[pri:6, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-23T14:50:21 IST" name="fogetpassword" description="Test Description  : Verification of forget password Feature" finished-at="2023-03-23T14:50:23 IST" duration-ms="1935" status="PASS">
+        <test-method signature="fogetpassword()[pri:6, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-24T11:39:41 IST" name="fogetpassword" description="Test Description  : Verification of forget password Feature" finished-at="2023-03-24T11:39:44 IST" duration-ms="2852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fogetpassword -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-23T14:50:23 IST" name="closeApplication" finished-at="2023-03-23T14:50:25 IST" duration-ms="2010" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ForgetPasswordTest@48aca48b]" started-at="2023-03-24T11:39:44 IST" name="closeApplication" finished-at="2023-03-24T11:39:46 IST" duration-ms="2011" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -360,7 +285,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.ForgetPasswordTest -->
       <class name="bluefinUIAutomation.FooterLinksTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-23T14:51:25 IST" name="setupApplication" finished-at="2023-03-23T14:51:28 IST" duration-ms="2776" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-24T11:40:48 IST" name="setupApplication" finished-at="2023-03-24T11:40:52 IST" duration-ms="3592" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -370,11 +295,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="FooterTLinks()[pri:2, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-23T14:51:28 IST" name="FooterTLinks" description="Test Description   = Verification of Footerlinks Feature" finished-at="2023-03-23T14:51:29 IST" duration-ms="1734" status="PASS">
+        <test-method signature="FooterTLinks()[pri:2, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-24T11:40:52 IST" name="FooterTLinks" description="Test Description   = Verification of Footerlinks Feature" finished-at="2023-03-24T11:40:55 IST" duration-ms="3107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FooterTLinks -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-23T14:51:29 IST" name="closeApplication" finished-at="2023-03-23T14:51:31 IST" duration-ms="2014" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.FooterLinksTest@273e7444]" started-at="2023-03-24T11:40:55 IST" name="closeApplication" finished-at="2023-03-24T11:40:57 IST" duration-ms="2001" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -383,7 +308,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.FooterLinksTest -->
       <class name="bluefinUIAutomation.CreateTicketTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-23T14:50:25 IST" name="setupApplication" finished-at="2023-03-23T14:50:27 IST" duration-ms="1720" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-24T11:39:46 IST" name="setupApplication" finished-at="2023-03-24T11:39:49 IST" duration-ms="3203" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -393,11 +318,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="createticket()[pri:4, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-23T14:50:27 IST" name="createticket" description="Test Description  : Created Support Ticket" finished-at="2023-03-23T14:50:37 IST" duration-ms="9950" status="PASS">
+        <test-method signature="createticket()[pri:4, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-24T11:39:49 IST" name="createticket" description="Test Description  : Created Support Ticket" finished-at="2023-03-24T11:39:57 IST" duration-ms="8359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createticket -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-23T14:50:37 IST" name="closeApplication" finished-at="2023-03-23T14:50:39 IST" duration-ms="2010" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.CreateTicketTest@13fd2ccd]" started-at="2023-03-24T11:39:57 IST" name="closeApplication" finished-at="2023-03-24T11:39:59 IST" duration-ms="2011" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -406,7 +331,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.CreateTicketTest -->
       <class name="bluefinUIAutomation.LogInPageTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-23T14:51:15 IST" name="setupApplication" finished-at="2023-03-23T14:51:18 IST" duration-ms="3141" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-24T11:40:39 IST" name="setupApplication" finished-at="2023-03-24T11:40:41 IST" duration-ms="1893" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -416,11 +341,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="LoginPage()[pri:5, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-23T14:51:18 IST" name="LoginPage" description="Test Description  : Verify login page " finished-at="2023-03-23T14:51:23 IST" duration-ms="4705" status="PASS">
+        <test-method signature="LoginPage()[pri:5, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-24T11:40:41 IST" name="LoginPage" description="Test Description  : Verify login page " finished-at="2023-03-24T11:40:46 IST" duration-ms="5168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-23T14:51:23 IST" name="closeApplication" finished-at="2023-03-23T14:51:25 IST" duration-ms="2002" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.LogInPageTest@52b1beb6]" started-at="2023-03-24T11:40:46 IST" name="closeApplication" finished-at="2023-03-24T11:40:48 IST" duration-ms="2001" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -429,7 +354,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.LogInPageTest -->
       <class name="bluefinUIAutomation.RequestDemoTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-23T14:50:11 IST" name="setupApplication" finished-at="2023-03-23T14:50:13 IST" duration-ms="1776" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-24T11:39:27 IST" name="setupApplication" finished-at="2023-03-24T11:39:30 IST" duration-ms="2815" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -439,7 +364,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="testdemo()[pri:1, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-23T14:50:13 IST" name="testdemo" description=" Test Description   =  Verification of Request Demo Feature" finished-at="2023-03-23T14:50:13 IST" duration-ms="19" status="FAIL">
+        <test-method signature="testdemo()[pri:1, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-24T11:39:30 IST" name="testdemo" description=" Test Description   =  Verification of Request Demo Feature" finished-at="2023-03-24T11:39:30 IST" duration-ms="38" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://web.td112.net/] but found [https://web.td112.net/]]]>
@@ -488,7 +413,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdemo -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-23T14:50:13 IST" name="closeApplication" finished-at="2023-03-23T14:50:15 IST" duration-ms="2009" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.RequestDemoTest@4efac082]" started-at="2023-03-24T11:39:30 IST" name="closeApplication" finished-at="2023-03-24T11:39:32 IST" duration-ms="2008" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -497,7 +422,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.RequestDemoTest -->
       <class name="bluefinUIAutomation.HeaderLinksTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-23T14:50:39 IST" name="setupApplication" finished-at="2023-03-23T14:50:42 IST" duration-ms="3163" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-24T11:39:59 IST" name="setupApplication" finished-at="2023-03-24T11:40:03 IST" duration-ms="3274" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -507,11 +432,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="headerLinksVerification()[pri:7, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-23T14:50:42 IST" name="headerLinksVerification" description="Test Description   = Verification of Headerlinks Feature" finished-at="2023-03-23T14:50:43 IST" duration-ms="1050" status="PASS">
+        <test-method signature="headerLinksVerification()[pri:7, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-24T11:40:03 IST" name="headerLinksVerification" description="Test Description   = Verification of Headerlinks Feature" finished-at="2023-03-24T11:40:04 IST" duration-ms="1642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerLinksVerification -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-23T14:50:43 IST" name="closeApplication" finished-at="2023-03-23T14:50:45 IST" duration-ms="2013" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.HeaderLinksTest@b9b00e0]" started-at="2023-03-24T11:40:04 IST" name="closeApplication" finished-at="2023-03-24T11:40:06 IST" duration-ms="2013" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
@@ -520,7 +445,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- closeApplication -->
       </class> <!-- bluefinUIAutomation.HeaderLinksTest -->
       <class name="bluefinUIAutomation.ContactUsVerificationTest">
-        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-23T14:50:45 IST" name="setupApplication" finished-at="2023-03-23T14:50:50 IST" duration-ms="4889" status="PASS">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-24T11:40:06 IST" name="setupApplication" finished-at="2023-03-24T11:40:09 IST" duration-ms="2608" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -530,11 +455,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setupApplication -->
-        <test-method signature="ContactUsBo()[pri:5, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-23T14:50:50 IST" name="ContactUsBo" description=" Test Description   = Verification of contact us fuctionality form lobby and back office aswell  " finished-at="2023-03-23T14:50:56 IST" duration-ms="6551" status="PASS">
+        <test-method signature="ContactUsBo()[pri:5, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-24T11:40:09 IST" name="ContactUsBo" description=" Test Description   = Verification of contact us fuctionality form lobby and back office aswell  " finished-at="2023-03-24T11:40:19 IST" duration-ms="9631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactUsBo -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-23T14:50:56 IST" name="closeApplication" finished-at="2023-03-23T14:50:58 IST" duration-ms="2000" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:bluefinUIAutomation.ContactUsVerificationTest@72e5a8e]" started-at="2023-03-24T11:40:19 IST" name="closeApplication" finished-at="2023-03-24T11:40:21 IST" duration-ms="2002" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>

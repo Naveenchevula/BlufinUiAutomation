@@ -126,7 +126,7 @@ public class DemoRequest extends TestBase {
 		System.out.println("Current url : " + driver.getCurrentUrl());
 		System.out.println("Current Title : " + driver.getTitle());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		String expectedurl = "http://web.td112.net/";
+		String expectedurl = "https://web.td112.net/";
 		String originalurl = driver.getCurrentUrl();
 		Assert.assertEquals(originalurl, expectedurl);
 		String expectedTitle = "Lobby";
