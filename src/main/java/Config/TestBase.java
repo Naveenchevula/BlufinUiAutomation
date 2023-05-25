@@ -1,8 +1,6 @@
 package Config;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,24 +16,26 @@ public class TestBase {
 	@BeforeClass
 	public void setupApplication() {
 
-		Reporter.log("=====Browser Session Started=====", true); 
+		Reporter.log("=====Browser Session Started=====", true);
 
 		WebDriverManager.chromedriver().setup();
 
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--remote-allow-origins=*", "ignore-certificate-errors");
 		driver = new ChromeDriver(chromeOptions);
-		// WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.manage().window().maximize();  
+		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		driver.get("http://web.td112.net/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		Reporter.log("=====Application Started=====", true);
+		
+
 	}
 
 	@AfterClass
+	
 	public void closeApplication() throws InterruptedException {
 
 		Thread.sleep(2000);
