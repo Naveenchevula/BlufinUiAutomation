@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="bluefinUIAutomation.ReportsTest"/>
+      <class name="bluefinUIAutomation.ReportsTest"/> 
       <class name="bluefinUIAutomation.SearchorgTest"/>
       <class name="bluefinUIAutomation.RequestDemoTest"/>
       <class name="bluefinUIAutomation.LogoTest"/>

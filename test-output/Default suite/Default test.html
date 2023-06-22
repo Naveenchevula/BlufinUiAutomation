@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 28 12:19:37 IST 2023</td>
+<td>Started on:</td><td>Fri May 26 18:38:40 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>119 seconds (119943 ms)</td>
+<tr><td>Total time:</td><td>36 seconds (36274 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='bluefinUIAutomation.AddOrganizationTest.AddOrg()'><b>AddOrg</b><br>Test class: bluefinUIAutomation.AddOrganizationTest<br>Test method: Test Description   = Verification Add Organization</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=112.0.5615.138)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+<td title='bluefinUIAutomation.DashboardTest.DashBordverify()'><b>DashBordverify</b><br>Test class: bluefinUIAutomation.DashboardTest<br>Test method: Test Description   = Verification of DashBoard Components</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Please enter your email&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [864e63d10ebca8f1cacdbedb0bb89d35, sendKeysToElement {id=5f479f41-28c8-4362-bb7b-42982bbc49e0, value=[Ljava.lang.CharSequence;@9880a15}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50657}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50657/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (864e63d10ebca8f1cacdbedb0bb89d35)] -&gt; xpath: (//input[@placeholder=&apos;Please enter register no.&apos;])]
-Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
+Command: [c881935a6d6a310022d44fd79da84894, findElement {using=xpath, value=//input[@placeholder=&apos;Please enter your email&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58879/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c881935a6d6a310022d44fd79da84894
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,16 +97,16 @@ Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at pageObjects.AddOrganization.organizationForm(AddOrganization.java:138)
-	at pageObjects.AddOrganization.AddOrganizationBO(AddOrganization.java:222)
-	at bluefinUIAutomation.AddOrganizationTest.AddOrg(AddOrganizationTest.java:26)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+	at pageObjects.LogIn.LoginFuction(LogIn.java:96)
+	at pageObjects.DashBoard.Dashboardverification(DashBoard.java:49)
+	at bluefinUIAutomation.DashboardTest.DashBordverify(DashboardTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -136,17 +135,16 @@ Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1471558227", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1471558227'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=112.0.5615.138)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+</pre></div><a href='#' onClick='toggleBox("stack-trace1423491597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423491597'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Please enter your email&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [864e63d10ebca8f1cacdbedb0bb89d35, sendKeysToElement {id=5f479f41-28c8-4362-bb7b-42982bbc49e0, value=[Ljava.lang.CharSequence;@9880a15}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50657}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50657/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (864e63d10ebca8f1cacdbedb0bb89d35)] -&gt; xpath: (//input[@placeholder=&apos;Please enter register no.&apos;])]
-Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
+Command: [c881935a6d6a310022d44fd79da84894, findElement {using=xpath, value=//input[@placeholder=&apos;Please enter your email&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nchevula\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58879/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c881935a6d6a310022d44fd79da84894
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,16 +157,16 @@ Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-	at pageObjects.AddOrganization.organizationForm(AddOrganization.java:138)
-	at pageObjects.AddOrganization.AddOrganizationBO(AddOrganization.java:222)
-	at bluefinUIAutomation.AddOrganizationTest.AddOrg(AddOrganizationTest.java:26)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+	at pageObjects.LogIn.LoginFuction(LogIn.java:96)
+	at pageObjects.DashBoard.Dashboardverification(DashBoard.java:49)
+	at bluefinUIAutomation.DashboardTest.DashBordverify(DashboardTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,76 +196,8 @@ Session ID: 864e63d10ebca8f1cacdbedb0bb89d35
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>5</td>
-<td>bluefinUIAutomation.AddOrganizationTest@5460cf3a</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='bluefinUIAutomation.HeaderLinksTest.headerLinksVerification()'><b>headerLinksVerification</b><br>Test class: bluefinUIAutomation.HeaderLinksTest<br>Test method: Test Description   = Verification of Headerlinks Feature</td>
-<td></td>
-<td>1</td>
-<td>bluefinUIAutomation.HeaderLinksTest@740d2e78</td></tr>
-<tr>
-<td title='bluefinUIAutomation.ReportsTest.ReportsPage()'><b>ReportsPage</b><br>Test class: bluefinUIAutomation.ReportsTest<br>Test method: Test Description   = Verification of Reports Back Office </td>
-<td></td>
-<td>4</td>
-<td>bluefinUIAutomation.ReportsTest@21fd5faa</td></tr>
-<tr>
-<td title='bluefinUIAutomation.SearchorgTest.SearchOrgnizationElement()'><b>SearchOrgnizationElement</b><br>Test class: bluefinUIAutomation.SearchorgTest<br>Test method: Test Description   = Verification of Search Organization</td>
-<td></td>
-<td>13</td>
-<td>bluefinUIAutomation.SearchorgTest@2766ca9d</td></tr>
-<tr>
-<td title='bluefinUIAutomation.LogoTest.logoVerify()'><b>logoVerify</b><br>Test class: bluefinUIAutomation.LogoTest<br>Test method: Test Description   = Verification of LoGo Feature</td>
-<td></td>
-<td>0</td>
-<td>bluefinUIAutomation.LogoTest@6dab9b6d</td></tr>
-<tr>
-<td title='bluefinUIAutomation.RequestDemoTest.testdemo()'><b>testdemo</b><br>Test class: bluefinUIAutomation.RequestDemoTest<br>Test method:  Test Description   =  Verification of Request Demo Feature</td>
-<td></td>
-<td>3</td>
-<td>bluefinUIAutomation.RequestDemoTest@b7c4869</td></tr>
-<tr>
-<td title='bluefinUIAutomation.CreateTicketTest.createticket()'><b>createticket</b><br>Test class: bluefinUIAutomation.CreateTicketTest<br>Test method: Test Description  : Created Support Ticket</td>
-<td></td>
-<td>7</td>
-<td>bluefinUIAutomation.CreateTicketTest@27d4a09</td></tr>
-<tr>
-<td title='bluefinUIAutomation.ContactusButtonTest.ContactUsButtontest()'><b>ContactUsButtontest</b><br>Test class: bluefinUIAutomation.ContactusButtonTest<br>Test method:  Test Description   = Verification of contact  Button & Send Message </td>
-<td></td>
-<td>2</td>
-<td>bluefinUIAutomation.ContactusButtonTest@273e7444</td></tr>
-<tr>
-<td title='bluefinUIAutomation.DashboardTest.DashBordverify()'><b>DashBordverify</b><br>Test class: bluefinUIAutomation.DashboardTest<br>Test method: Test Description   = Verification of DashBoard Components</td>
-<td></td>
-<td>6</td>
-<td>bluefinUIAutomation.DashboardTest@48aca48b</td></tr>
-<tr>
-<td title='bluefinUIAutomation.FooterLinksTest.FooterTLinks()'><b>FooterTLinks</b><br>Test class: bluefinUIAutomation.FooterLinksTest<br>Test method: Test Description   = Verification of Footerlinks Feature</td>
-<td></td>
-<td>1</td>
-<td>bluefinUIAutomation.FooterLinksTest@65a15628</td></tr>
-<tr>
-<td title='bluefinUIAutomation.LogInPageTest.LoginPage()'><b>LoginPage</b><br>Test class: bluefinUIAutomation.LogInPageTest<br>Test method: Test Description  : Verify login page </td>
-<td></td>
-<td>3</td>
-<td>bluefinUIAutomation.LogInPageTest@7e4204e2</td></tr>
-<tr>
-<td title='bluefinUIAutomation.ForgetPasswordTest.fogetpassword()'><b>fogetpassword</b><br>Test class: bluefinUIAutomation.ForgetPasswordTest<br>Test method: Test Description  : Verification of forget password Feature</td>
-<td></td>
-<td>2</td>
-<td>bluefinUIAutomation.ForgetPasswordTest@6d025197</td></tr>
-<tr>
-<td title='bluefinUIAutomation.ContactUsVerificationTest.ContactUsBo()'><b>ContactUsBo</b><br>Test class: bluefinUIAutomation.ContactUsVerificationTest<br>Test method:  Test Description   = Verification of contact us fuctionality form lobby and back office aswell  </td>
-<td></td>
-<td>6</td>
-<td>bluefinUIAutomation.ContactUsVerificationTest@1c481ff2</td></tr>
+<td>31</td>
+<td>bluefinUIAutomation.DashboardTest@23c30a20</td></tr>
 </table><p>
 </body>
 </html>
