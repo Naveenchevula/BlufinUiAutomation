@@ -3,13 +3,41 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="bluefinUIAutomation.RequestDemoTest">
+      <class name="bluefinUIAutomation.SearchorgTest">
         <methods>
-          <include name="testdemo"/>
+          <include name="SearchOrgnizationElement"/>
           <include name="setupApplication"/>
           <include name="closeApplication"/>
         </methods>
-      </class> <!-- bluefinUIAutomation.RequestDemoTest -->
+      </class> <!-- bluefinUIAutomation.SearchorgTest -->
+      <class name="bluefinUIAutomation.ReportsTest">
+        <methods>
+          <include name="ReportsPage"/>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.ReportsTest -->
+      <class name="bluefinUIAutomation.ContactusButtonTest">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="ContactUsButtontest"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.ContactusButtonTest -->
+      <class name="bluefinUIAutomation.DashboardTest">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="DashBordverify"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.DashboardTest -->
+      <class name="bluefinUIAutomation.CreateTicketTest">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="closeApplication"/>
+          <include name="createticket"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.CreateTicketTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
