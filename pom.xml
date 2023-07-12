@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Bluefine</groupId>
-  <artifactId>UIAutomation</artifactId>
+  <artifactId>BlufinAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>UIAutomation</name>
@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
 
@@ -37,6 +37,13 @@
     <version>7.6.1</version>
     <scope>test</scope>
 </dependency>
+
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.22</version>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/org.jboss.aerogear/aerogear-otp-java -->
 <dependency>
     <groupId>org.jboss.aerogear</groupId>
@@ -130,7 +137,16 @@
           <version>3.0.0</version>
         </plugin>
         
-        
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
         
         
       </plugins>
