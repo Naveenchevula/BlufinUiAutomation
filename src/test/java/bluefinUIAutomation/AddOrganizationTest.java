@@ -15,7 +15,7 @@ public class AddOrganizationTest extends TestBase{
 	AddOrganization  addorganization;
 	LogIn login;
 	
-	
+	   
 	@Test(priority = 2, description = "Test Description   = Verification Add Organization")
 	
 	public void AddOrg() throws Throwable {
