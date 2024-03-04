@@ -1802,3 +1802,54 @@ Automation Testing Scripting
  INFO [LogIn.java:92] - Redirected to Login Page
  INFO [LogIn.java:93] - verifing login page 
  INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:86] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [AddOrganization.java:87] - # # # # # # # # VERIFICATION OF ADD ORGANIZATION # # # # # # # # # 
+ INFO [LogIn.java:28] - # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ INFO [LogIn.java:88] - Open Lobby Url
+ INFO [LogIn.java:89] - Searching for Loggin Button
+ INFO [LogIn.java:90] - Clicked On Login Button
+ INFO [LogIn.java:92] - Redirected to Login Page
+ INFO [LogIn.java:93] - verifing login page 
+ INFO [LogIn.java:94] - found Email & Password Boxes
+ INFO [LogIn.java:97] - Clear email Box
+ INFO [LogIn.java:99] - Enter Email Id 
+ INFO [LogIn.java:101] - Entered Email as :admin@alphanetworks.com.sg
+ INFO [LogIn.java:103] - Search For Password Box
+ INFO [LogIn.java:105] - Clear Password Box
+ INFO [LogIn.java:107] - Enter Password 
+ INFO [LogIn.java:109] - Entered Email as :AA1@34aa
+ INFO [LogIn.java:111] - Search For Submit Button
+ INFO [LogIn.java:113] - Clicked On Submit Button
+ INFO [LogIn.java:114] - IS button DISPlAYING :  true
+ INFO [LogIn.java:115] - Redirected to Enter Code page 
+ INFO [LogIn.java:117] - Fetching Code From Google Authenticator
+ INFO [LogIn.java:119] - Enter Code in Box 
+ INFO [LogIn.java:121] - Entered 2 factor code as :159581
+ INFO [LogIn.java:123] - Current Url :https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:125] - Search For Done Button 
+ INFO [LogIn.java:126] - Clicked on Done Button 
+ INFO [LogIn.java:128] - Clicked on Done Button 
+ INFO [LogIn.java:129] - redirected to Back Office
+ INFO [LogIn.java:130] - https://console.td112.net/verify-otp?redirect=%2F
+ INFO [LogIn.java:131] - Logged in Succesfully
+ INFO [LogIn.java:133] - Search For Profile Icon On Back office page
+ INFO [LogIn.java:134] - Found Profile Icon
+ INFO [LogIn.java:136] - Clicked On Profile Icon
+ INFO [LogIn.java:137] - Profile Section Is opened 
+ INFO [LogIn.java:138] - Current Url :Back Office
+ INFO [LogIn.java:139] - https://console.td112.net/
+ INFO [LogIn.java:140] - Login Functionality Verified
+ INFO [AddOrganization.java:90] - Searching for Select Service button
+ INFO [AddOrganization.java:91] - clicking on Select service
+ INFO [AddOrganization.java:94] - Searching for Organisation listing button
+ INFO [AddOrganization.java:95] - clicking on Organisation listing button
+ INFO [AddOrganization.java:97] - Organization Listing page opend
+ INFO [AddOrganization.java:98] - Searching for Add Organization Button
+ INFO [AddOrganization.java:99] - Clicking on Add Organization Button
+ INFO [AddOrganization.java:101] - Add organization from is opened
+ INFO [AddOrganization.java:110] - clearing form
+ INFO [AddOrganization.java:111] - Entering Organization Name
+ INFO [AddOrganization.java:115] - Entering Organization Name as :Auto OrgDqY
+ INFO [AddOrganization.java:118] - Clicked on country dropdown

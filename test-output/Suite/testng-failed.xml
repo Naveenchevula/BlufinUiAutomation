@@ -3,41 +3,97 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="bluefinUIAutomation.SearchorgTest">
+      <class name="bluefinUIAutomation.LogoTest">
         <methods>
-          <include name="SearchOrgnizationElement"/>
-          <include name="setupApplication"/>
+          <include name="logoVerify"/>
           <include name="closeApplication"/>
+          <include name="setupApplication"/>
         </methods>
-      </class> <!-- bluefinUIAutomation.SearchorgTest -->
-      <class name="bluefinUIAutomation.ReportsTest">
+      </class> <!-- bluefinUIAutomation.LogoTest -->
+      <class name="bluefinUIAutomation.ForgetPasswordTest">
         <methods>
-          <include name="ReportsPage"/>
-          <include name="setupApplication"/>
           <include name="closeApplication"/>
+          <include name="setupApplication"/>
+          <include name="fogetpassword"/>
         </methods>
-      </class> <!-- bluefinUIAutomation.ReportsTest -->
+      </class> <!-- bluefinUIAutomation.ForgetPasswordTest -->
       <class name="bluefinUIAutomation.ContactusButtonTest">
         <methods>
-          <include name="setupApplication"/>
           <include name="closeApplication"/>
+          <include name="setupApplication"/>
           <include name="ContactUsButtontest"/>
         </methods>
       </class> <!-- bluefinUIAutomation.ContactusButtonTest -->
+      <class name="bluefinUIAutomation.AddOrganizationTest">
+        <methods>
+          <include name="AddOrg"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.AddOrganizationTest -->
+      <class name="bluefinUIAutomation.RequestDemoTest">
+        <methods>
+          <include name="testdemo"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.RequestDemoTest -->
+      <class name="bluefinUIAutomation.HeaderLinksTest">
+        <methods>
+          <include name="headerLinksVerification"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.HeaderLinksTest -->
+      <class name="bluefinUIAutomation.ContactUsVerificationTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+          <include name="ContactUsBo"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.ContactUsVerificationTest -->
+      <class name="bluefinUIAutomation.SearchorgTest">
+        <methods>
+          <include name="SearchOrgnizationElement"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.SearchorgTest -->
+      <class name="bluefinUIAutomation.LogInPageTest">
+        <methods>
+          <include name="LoginPage"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.LogInPageTest -->
+      <class name="bluefinUIAutomation.ReportsTest">
+        <methods>
+          <include name="ReportsPage"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.ReportsTest -->
       <class name="bluefinUIAutomation.DashboardTest">
         <methods>
-          <include name="setupApplication"/>
           <include name="closeApplication"/>
+          <include name="setupApplication"/>
           <include name="DashBordverify"/>
         </methods>
       </class> <!-- bluefinUIAutomation.DashboardTest -->
       <class name="bluefinUIAutomation.CreateTicketTest">
         <methods>
-          <include name="setupApplication"/>
           <include name="closeApplication"/>
+          <include name="setupApplication"/>
           <include name="createticket"/>
         </methods>
       </class> <!-- bluefinUIAutomation.CreateTicketTest -->
+      <class name="bluefinUIAutomation.FooterLinksTest">
+        <methods>
+          <include name="FooterTLinks"/>
+          <include name="closeApplication"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- bluefinUIAutomation.FooterLinksTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

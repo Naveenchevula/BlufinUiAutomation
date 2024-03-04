@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bluefinUIAutomation.DashboardTest">
+      <class name="bluefinUIAutomation.AddOrganizationTest">
         <methods>
+          <include name="AddOrg"/>
           <include name="setupApplication"/>
           <include name="closeApplication"/>
-          <include name="DashBordverify"/>
         </methods>
-      </class> <!-- bluefinUIAutomation.DashboardTest -->
+      </class> <!-- bluefinUIAutomation.AddOrganizationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
