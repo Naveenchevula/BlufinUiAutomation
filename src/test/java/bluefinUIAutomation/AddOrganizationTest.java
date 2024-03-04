@@ -12,7 +12,7 @@ public class AddOrganizationTest extends TestBase{
 		super();
 	}
 	
-	AddOrganization addorganization;
+	AddOrganization  addorganization;
 	LogIn login;
 	
 	
